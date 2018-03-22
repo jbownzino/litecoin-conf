@@ -3,36 +3,76 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000000;
   color: #ffffff;
   box-sizing: border-box;
-}
-h1 {
-  font-size: 32px;
-  font-weight: 200;
-  line-height: 40px;
   font-family: 'Poppins','Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.flex {
+.image-bg {
   display: flex;
-  background-image: url('./assets/sf.jpg');
-  background-size: cover;
-  background-position: center, center;
-  height: auto;
-  min-height: 100vH;
+  background-image: url('./assets/images/sf2.jpg');
+  background-color: #3B3CE8;
+  background-blend-mode: multiply;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+  height: 100vH;
   align-items: center;
   justify-content: center;
-}
-.overlay {
-  position: absolute;
   width: 100%;
   height: 100vH;
   z-index: 2;
-  background: #000000;
-  opacity: .6;
+  transition: all 0.3s ease;
+}
+.logo {
+  max-width: 175px;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.drop-shadow {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+}
+.logo:hover {
+  -webkit-filter: drop-shadow(0px 0px 12px rgba(0, 231, 255, 0.8));
+  -webkit-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: .25s all;
+}
+h1, h2, h3 {
+  font-weight: 200;
+  margin: 0;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 22px;
 }
 .content {
-  flex: .5;
+  flex: .75;
   z-index: 3;
   text-align: center;
+}
+.details {
+  margin-top: 40px;
+}
+.image {
+  flex: .5;
+}
+/* Coin animation - floating effect */
+.jump {
+  animation: jump 2s infinite ease;
+}
+@keyframes jump {
+  0% {
+    margin: 20px;
+  }
+  50% {
+    margin: 30px;
+  }
+  100% {
+    margin: 20px;
+  }
 }
