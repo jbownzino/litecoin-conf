@@ -17,10 +17,10 @@ class LandingContent extends React.Component {
                 <div className="social">
                     <img className="accepted" src={accepted} alt="Litecoin Accepted Here"/>
                     <ul>
-                        <li><a href="#"><i class="ti-facebook" /></a></li>
-                        <li><a href="#"><i class="ti-twitter-alt" /></a></li>
-                        <li><a href="#"><i class="ti-instagram" /></a></li>
-                        <li><a href="#"><i class="ti-email" /></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/LitecoinFoundation"><i class="ti-facebook" /></a></li>
+                        <li><a target="_blank" href="https://twitter.com/LTCFoundation"><i class="ti-twitter-alt" /></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/ltcfoundation/"><i class="ti-instagram" /></a></li>
+                        <li><a href="mailto:info@litecoin-foundation.org"><i class="ti-email" /></a></li>
                     </ul>
                 </div>
             </div>
