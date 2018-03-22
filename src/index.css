@@ -2,137 +2,160 @@
 @import url('./assets/css/themify-icons.css');
 
 body {
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  box-sizing: border-box;
-  font-family: 'Roboto',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.image-bg {
-  display: flex;
-  background-image: url('./assets/images/sf2.jpg');
-  background-color: #009de6;
-  background-blend-mode: multiply;
-  background-size: cover !important;
-  background-position: 50% 50% !important;
-  height: 100vH;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  z-index: 2;
+
+.content {
+    background-image: url('./assets/images/sf2.jpg');
+    background-color: #009de6;
+    background-blend-mode: multiply;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vH;
+    justify-content: space-around;
+}
+
+.details {
+    text-align: center;
+}
+
+.image-wrap {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
 .logo {
-  max-width: 175px;
-  -webkit-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+    max-width: 175px;
+    margin-top: 30px;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
 }
-.accepted {
-  max-width: 150px;
-}
+
 .text {
-  max-width: 220px;
+    margin-top: 42px;
+    max-width: 220px;
 }
+
+.accepted {
+    max-width: 150px;
+}
+
 .drop-shadow {
-  -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 231, 255, 0.8));
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(0, 231, 255, 0.8));
 }
+
 .logo:hover {
-  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
-  -webkit-transition: all 0.25s linear;
-  -o-transition: all 0.25s linear;
-  transition: .25s all;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: .25s all;
+}
+.subtitle {
+    padding-bottom: 4px;
 }
 h1, h2, h3 {
-  margin: 0;
+    margin: 0;
 }
+
 h1 {
-  font-weight: 300;
-  font-size: 38px;
-  letter-spacing: 1.75px;
-  margin-top: 30px;
-  margin-bottom: 6px;
+    font-weight: 300;
+    font-size: 38px;
+    letter-spacing: 1.75px;
+    margin-top: 30px;
+    margin-bottom: 6px;
 }
+
 h2 {
-  font-weight: 100;
-  font-size: 18px;
-  margin-bottom: 4px;
-  letter-spacing: 1.3px;
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 4px;
+    letter-spacing: 1.3px;
 }
+
 h3 {
-  font-weight: 200;
-  font-size: 28px;
+    font-weight: 200;
+    font-size: 28px;
 }
-.content {
-  flex: .75;
-  z-index: 3;
-  text-align: center;
-}
-.details {
-  margin-top: 30px;
-}
-.image {
-  flex: .5;
-}
+
 ul {
-  padding: 20px 0 0 0;
-  margin: 0;
+    padding: 10px 0 0 0;
+    margin: 0;
 }
-.social {
-  position: absolute;
-  bottom: 14px;
-  left: 0;
-  right: 0;
-}
-.social > ul li {
-  display: inline-block;
-  padding: 0 10px;
-}
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 i {
-  color: #fff;
-  font-size: 18px;
-  transition: .25s all;
+    color: #fff;
+    font-size: 18px;
+    transition: .25s all;
 }
+
 i:hover {
-  color: #ccc;
-  transition: .25s all;
+    color: #ccc;
+    transition: .25s all;
 }
+
 /* Coin animation - floating effect */
 .jump {
-  animation: jump 2.5s infinite ease;
+    animation: jump 2.5s infinite ease;
 }
+
 @keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(14px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(14px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
+
 @media (max-width: 768px) {
-  /*.image-bg {
-    align-items: unset;
-    padding-top: 60px;
-  }
-  .content {
-    flex: .9;
-  }*/
-  .logo {
-    max-width: 150px;
-  }
-  .text {
-    max-width: 150px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  h3 {
-    font-size: 20px;
-  }
+    /*.image-bg {
+      align-items: unset;
+      padding-top: 60px;
+    }
+    .content {
+      flex: .9;
+    }*/
+    .logo {
+        max-width: 150px;
+    }
+
+    .text {
+        max-width: 150px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
 
 }

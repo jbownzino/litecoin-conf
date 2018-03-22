@@ -7,20 +7,28 @@ import './App.css';
 class LandingContent extends React.Component {
     render() {
         return (
-            <div className="content">
-                <img className="logo jump drop-shadow" src={logo} alt="Logo" />
-                <div className="details">
+            <div className="container">
+                <div className="image-wrap">
+                    <img className="logo jump drop-shadow" src={logo} alt="Logo" />
+                    <br/>
                     <img className="text" src={text} alt="Logo" />
+                </div>
+                <div className="details">
                     <h1>Global Payments Conference</h1>
-                    <h3>South San Francisco Conference Center | September 14-15, 2018</h3>
+                    <div className="subtitle">
+                        <h3>South San Francisco Conference Center</h3>
+                    </div>
+                    <div className="date">
+                        <h2>September 14-15, 2018</h2>
+                    </div>
                 </div>
                 <div className="social">
                     <img className="accepted" src={accepted} alt="Litecoin Accepted Here"/>
                     <ul>
-                        <li><a target="_blank" href="https://www.facebook.com/LitecoinFoundation"><i class="ti-facebook" /></a></li>
-                        <li><a target="_blank" href="https://twitter.com/LTCFoundation"><i class="ti-twitter-alt" /></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/ltcfoundation/"><i class="ti-instagram" /></a></li>
-                        <li><a href="mailto:info@litecoin-foundation.org"><i class="ti-email" /></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/LitecoinFoundation"><i className="ti-facebook" /></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/LTCFoundation"><i className="ti-twitter-alt" /></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ltcfoundation/"><i className="ti-instagram" /></a></li>
+                        <li><a href="mailto:info@litecoin-foundation.org"><i className="ti-email" /></a></li>
                     </ul>
                 </div>
             </div>
@@ -31,7 +39,7 @@ class LandingContent extends React.Component {
 class App extends Component {
   render() {
     return (
-      <div className="image-bg">
+      <div className="content">
         <LandingContent />
       </div>
     );
