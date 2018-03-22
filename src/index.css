@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@import url('./assets/css/themify-icons.css');
 
 body {
   margin: 0;
@@ -9,7 +10,7 @@ body {
 }
 .image-bg {
   display: flex;
-  background-image: url('./assets/sf2.jpg');
+  background-image: url('./assets/images/sf2.jpg');
   background-color: #009de6;
   background-blend-mode: multiply;
   background-size: cover !important;
@@ -26,6 +27,9 @@ body {
   -webkit-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
+}
+.accepted {
+  max-width: 150px;
 }
 .text {
   max-width: 220px;
@@ -68,6 +72,32 @@ h3 {
 }
 .image {
   flex: .5;
+}
+ul {
+  padding: 20px 0 0 0;
+  margin: 0;
+}
+.social {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  right: 0;
+}
+.social > ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+a {
+  text-decoration: none;
+}
+i {
+  color: #fff;
+  font-size: 18px;
+  transition: .25s all;
+}
+i:hover {
+  color: #f9f9f9;
+  transition: .25s all;
 }
 /* Coin animation - floating effect */
 .jump {

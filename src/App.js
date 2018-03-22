@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './assets/litecoin-logo.png';
-import text from './assets/litecoin-text.png';
+import logo from './assets/images/litecoin-logo.png';
+import text from './assets/images/litecoin-text.png';
+import accepted from './assets/images/litecoin-accepted.png';
 import './App.css';
 
 class LandingContent extends React.Component {
@@ -12,6 +13,15 @@ class LandingContent extends React.Component {
                     <img className="text" src={text} alt="Logo" />
                     <h1>Global Payments Conference</h1>
                     <h3>South San Francisco Conference Center | September 14-15, 2018</h3>
+                </div>
+                <div className="social">
+                    <img className="accepted" src={accepted} alt="Litecoin Accepted Here"/>
+                    <ul>
+                        <li><a href="#"><i class="ti-facebook" /></a></li>
+                        <li><a href="#"><i class="ti-twitter-alt" /></a></li>
+                        <li><a href="#"><i class="ti-instagram" /></a></li>
+                        <li><a href="#"><i class="ti-email" /></a></li>
+                    </ul>
                 </div>
             </div>
         )
