@@ -43,7 +43,7 @@ body {
 
 .logo {
     max-width: 175px;
-    margin-top: 30px;
+    margin-top: 40px;
     -webkit-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
@@ -79,7 +79,7 @@ h1 {
     font-weight: 300;
     font-size: 38px;
     letter-spacing: 1.75px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 6px;
 }
 
