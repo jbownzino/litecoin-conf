@@ -115,13 +115,13 @@ i:hover {
   }
 }
 @media (max-width: 768px) {
-  .image-bg {
+  /*.image-bg {
     align-items: unset;
     padding-top: 60px;
   }
   .content {
     flex: .9;
-  }
+  }*/
   .logo {
     max-width: 150px;
   }
