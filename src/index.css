@@ -38,12 +38,12 @@ body {
 
 .social > ul li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 
 .logo {
     max-width: 175px;
-    margin-top: 40px;
+    margin-top: 60px;
     -webkit-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
     transition: all 0.5s linear;
@@ -79,7 +79,6 @@ h1 {
     font-weight: 300;
     font-size: 38px;
     letter-spacing: 1.75px;
-    margin-top: 10px;
     margin-bottom: 6px;
 }
 
@@ -96,7 +95,7 @@ h3 {
 }
 
 ul {
-    padding: 10px 0 0 0;
+    padding: 14px 0 0 0;
     margin: 0;
 }
 
@@ -106,7 +105,7 @@ a {
 
 i {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     transition: .25s all;
 }
 
@@ -133,13 +132,6 @@ i:hover {
 }
 
 @media (max-width: 768px) {
-    /*.image-bg {
-      align-items: unset;
-      padding-top: 60px;
-    }
-    .content {
-      flex: .9;
-    }*/
     .logo {
         max-width: 150px;
     }
@@ -147,7 +139,9 @@ i:hover {
     .text {
         max-width: 150px;
     }
-
+    h1, h2, h3 {
+        font-weight: 300;
+    }
     h1 {
         font-size: 32px;
     }
