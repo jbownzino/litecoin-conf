@@ -14,7 +14,7 @@ class LandingContent extends React.Component {
                     <img className="text" src={text} alt="Logo" />
                 </div>
                 <div className="details">
-                    <h1>Global Payments Conference</h1>
+                    <h1>Litecoin Summit</h1>
                     <div className="subtitle">
                         <h3>South San Francisco Conference Center</h3>
                     </div>
@@ -28,13 +28,20 @@ class LandingContent extends React.Component {
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/LitecoinFoundation"><i className="ti-facebook" /></a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/LTCFoundation"><i className="ti-twitter-alt" /></a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ltcfoundation/"><i className="ti-instagram" /></a></li>
-                        <li><a href="mailto:info@litecoin-foundation.org"><i className="ti-email" /></a></li>
+                        <li><a href="mailto:david.williams@litecoinfoundation.net"><i className="ti-email" /></a></li>
                     </ul>
                 </div>
             </div>
         )
     }
 }
+
+/*<ul>
+<li>Booths available</li>
+<li>$200 for 10x10'</li>
+<li>$400 for 10x20'</li>
+<li>Limited quantity available</li>
+</ul>*/
 
 class App extends Component {
   render() {
@@ -45,6 +52,5 @@ class App extends Component {
     );
   }
 }
-/*<img src={pd} alt="Logo" />*/
 
 export default App;
