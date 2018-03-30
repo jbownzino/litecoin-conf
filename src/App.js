@@ -14,7 +14,7 @@ class LandingContent extends React.Component {
                     <img className="text" src={text} alt="Logo" />
                 </div>
                 <div className="details">
-                    <h1>Litecoin Summit</h1>
+                    <h1>Global Litecoin Summit</h1>
                     <div className="subtitle">
                         <h3>South San Francisco Conference Center</h3>
                     </div>
@@ -35,6 +35,8 @@ class LandingContent extends React.Component {
         )
     }
 }
+
+/*<p class="lead">Vendor/Sponsorship inquiries: david.williams@litecoinfoundation.net</p>*/
 
 /*<ul>
 <li>Booths available</li>

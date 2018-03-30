@@ -11,7 +11,7 @@ body {
 
 .content {
     background-image: url('./assets/images/sf8.jpg');
-    background-color: #ccc;
+    background-color: #778899;
     background-blend-mode: multiply;
     background-size: cover !important;
     background-position: 50% 50% !important;
@@ -67,6 +67,10 @@ body {
     -webkit-transition: all 0.25s linear;
     -o-transition: all 0.25s linear;
     transition: .25s all;
+}
+.lead {
+    font-weight: 300;
+    font-size: 14px;
 }
 .subtitle {
     padding-bottom: 4px;
