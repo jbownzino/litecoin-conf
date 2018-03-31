@@ -20,6 +20,7 @@ class LandingContent extends React.Component {
                     </div>
                     <div className="date">
                         <h2>September 14-15, 2018</h2>
+                        <h2>More info soon</h2>
                     </div>
                 </div>
                 <div className="social">
