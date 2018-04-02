@@ -29,7 +29,7 @@ class LandingContent extends React.Component {
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/LitecoinFoundation"><i className="ti-facebook" /></a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/LTCFoundation"><i className="ti-twitter-alt" /></a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ltcfoundation/"><i className="ti-instagram" /></a></li>
-                        <li><a href="mailto:david.williams@litecoinfoundation.net"><i className="ti-email" /></a></li>
+                        <li><a href="mailto:conference@litecoinfoundation.net"><i className="ti-email" /></a></li>
                     </ul>
                 </div>
             </div>
