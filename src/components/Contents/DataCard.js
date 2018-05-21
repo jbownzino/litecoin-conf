@@ -17,6 +17,9 @@ const Avatar = styled.img`
   width: 100px;
   border-radius: 50%;
   margin: 0;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(${props => props.img});
 `
 
 const EmptyAvatar = styled.div`
@@ -39,7 +42,7 @@ const InfoWrapper = styled.div`
   ${media.handheld`
     width: 180px;
   `}
-  
+
 `
 
 const H5 = styled.h5`
@@ -57,8 +60,8 @@ const SocialLink = styled.a`
 
 const SocialLogo = styled.img`
   margin: 1rem 0;
+  width: 30px;
 `
-
 
 class DataCard extends Component {
   state = { loaded: false }
@@ -74,7 +77,7 @@ class DataCard extends Component {
       <Wrapper>
         {avatar.length === 0 ?
           <EmptyAvatar/> :
-          <Avatar src={avatar} />
+          <Avatar img={avatar} />
         }
         <InfoWrapper>
           {name && <H5>{name}</H5>}

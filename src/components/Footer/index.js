@@ -22,8 +22,8 @@ const P2 = styled.p`
 
 const Footer = () => (
   <Wrapper>
-    <P1> (c) 2018 Litecoin Foundation</P1>
-    <P2>Contact@LitecoinFoundation.net</P2>
+    <P1> © 2018 Litecoin Foundation</P1>
+    <P2>contact@litecoinfoundation.net</P2>
     <P2>Legal Disclaimer</P2>
     <P2>Privacy Policy</P2>
   </Wrapper>

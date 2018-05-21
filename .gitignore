@@ -3,3 +3,4 @@
 /.cache
 /.vscode
 public/
+.DS_Store

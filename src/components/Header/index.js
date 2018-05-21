@@ -12,8 +12,8 @@ const Wrapper = styled.div`
   margin: 20px 20px;
 `
 const Logo = styled.img`
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
 `
 
 const BlueButton = Button.extend`

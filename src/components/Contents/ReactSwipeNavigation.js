@@ -120,7 +120,7 @@ const MenuWrapper = styled.div`
 const MenuItem = styled.div`
   margin: 2rem;
   cursor: pointer;
-  color: ${fromTheme('lightGrey')};
+  color: ${fromTheme('grey')};
   ${media.medium`
     font-size: 12px;
     margin: 1rem 0.3rem;

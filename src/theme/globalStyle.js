@@ -52,7 +52,7 @@ injectGlobal`
     font-family: 'Open Sans', sans-serif;
     overflow-y: scroll;
   }
-  
+
   h1 {
     font-weight: 300px;
     font-family: OpenSans-Bold;
@@ -71,7 +71,7 @@ injectGlobal`
     text-align: left;
     font-size: 12px;
   }
-  
+
   button:focus {
     outline: 0;
   }
