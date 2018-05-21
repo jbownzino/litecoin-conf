@@ -7,6 +7,13 @@ import { tickets } from 'data/Ticket'
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+`
+
+const ContentWrapper = styled.div`
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 `
 
@@ -53,6 +60,8 @@ const BookButton = Button.extend`
 
 const TicketInfo = () => (
   <Wrapper>
+    <h3>Pay with Litecoin or USD via PayPal</h3>
+    <ContentWrapper>
     {tickets &&
       tickets.map(({ title, content, img, price }, i) => (
         <TicketWrapper key={i}>  
@@ -68,6 +77,7 @@ const TicketInfo = () => (
         </TicketWrapper>
       ))
     }
+    </ContentWrapper>
   </Wrapper>
 )
 
