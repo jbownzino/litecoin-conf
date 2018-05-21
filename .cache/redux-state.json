@@ -1,0 +1,1554 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/harryhur/Desktop/codes/litecoinsummit.org/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "517b762f64478467ebdff5c67679c0ac",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5a0059f17c457490d02773ddd33db1ff",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0ed222297b7f5ee0aeb1f0728251dc47",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b65f301285298da325dfd90963d86044",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be3945c41f5d1b98797a3b5f7e7dfa8a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "14d53d514b731c229a899713932a5ba9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "71c5cab87d89ea2e049d003be6f03f6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "52dcbf1ef8c3745007aba681526f3bfe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-resolve-src": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-resolve-src",
+      "id": "Plugin gatsby-plugin-resolve-src",
+      "name": "gatsby-plugin-resolve-src",
+      "version": "1.1.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-resolve-src",
+      "packageJson": {
+        "name": "gatsby-plugin-resolve-src",
+        "description": "Gatsby plugin to allow resolving imports from the src subdirectory",
+        "version": "1.1.3",
+        "main": "gatsby-node.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Aaron Lampros <alampros@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7000467c8cea9d97764925e07be6518f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8e1d35c3b1a4ef8cd5560ed74c7f28e5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.24",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fd73360bba647f8a38415cd9b56cbbc0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.44",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c8bfb62a040ba9b06398590146b6fe61",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.36",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "img",
+        "path": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.36",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e12e0815d93af0d7e04f4cc8ab7c193f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/harryhur/Desktop/codes/litecoinsummit.org",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "e5ba0d7eba73a88150dcbf7a2b4c3901",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/harryhur/Desktop/codes/litecoinsummit.org",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.247"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.51"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-resolve-src",
+            "version": "^1.1.3"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.36"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.24"
+          },
+          {
+            "name": "google-map-react",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "querystring",
+            "version": "^0.2.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-swipe",
+            "version": "^5.1.1"
+          },
+          {
+            "name": "react-swipe-navigation",
+            "version": "^1.1.5"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.2.6"
+          },
+          {
+            "name": "swipe-js-iso",
+            "version": "^2.0.4"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4780c8547e49fbb97cf82e0bb61bb074",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Litecoin Summit 2018"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-05-21T04:20:48.439Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f2d080dc792241fb3671c6aed988272c",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/ absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bf634916da1d8004ee740dc853e3cab8",
+        "type": "Directory",
+        "description": "Directory \"src/data\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-05-20T21:14:55.075Z",
+      "accessTime": "2018-05-21T04:20:52.270Z",
+      "changeTime": "2018-05-21T04:20:45.095Z",
+      "birthTime": "2018-05-20T15:08:58.947Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src",
+      "base": "data",
+      "ext": "",
+      "name": "data",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469878,
+      "blocks": 0,
+      "atime": "2018-05-21T04:20:52.270Z",
+      "mtime": "2018-05-20T21:14:55.075Z",
+      "ctime": "2018-05-21T04:20:45.095Z",
+      "birthtime": "2018-05-20T15:08:58.947Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "57a60b15d2bdf3feb32091d72a881fb0",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/data/Ticket.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js",
+      "relativePath": "Ticket.js",
+      "extension": "js",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-05-20T21:29:07.525Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.093Z",
+      "birthTime": "2018-05-20T21:14:55.075Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data",
+      "base": "Ticket.js",
+      "ext": ".js",
+      "name": "Ticket",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469879,
+      "blocks": 8,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-20T21:29:07.525Z",
+      "ctime": "2018-05-21T04:20:45.093Z",
+      "birthtime": "2018-05-20T21:14:55.075Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Person.js absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Person.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a0d7779e6c66bd2867e5e893329757d1",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/data/Person.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Person.js",
+      "relativePath": "Person.js",
+      "extension": "js",
+      "size": 4697,
+      "prettySize": "4.7 kB",
+      "modifiedTime": "2018-05-21T02:59:48.080Z",
+      "accessTime": "2018-05-21T04:14:48.175Z",
+      "changeTime": "2018-05-21T04:20:45.095Z",
+      "birthTime": "2018-05-20T15:09:24.334Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data",
+      "base": "Person.js",
+      "ext": ".js",
+      "name": "Person",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469880,
+      "blocks": 16,
+      "atime": "2018-05-21T04:14:48.175Z",
+      "mtime": "2018-05-21T02:59:48.080Z",
+      "ctime": "2018-05-21T04:20:45.095Z",
+      "birthtime": "2018-05-20T15:09:24.334Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc3f6d49a40ef8056381d6537ffd59e9",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/",
+      "relativePath": "",
+      "extension": "",
+      "size": 384,
+      "prettySize": "384 B",
+      "modifiedTime": "2018-05-21T03:28:33.761Z",
+      "accessTime": "2018-05-21T04:20:52.284Z",
+      "changeTime": "2018-05-21T04:20:45.068Z",
+      "birthTime": "2018-05-10T18:52:39.117Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 12,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469845,
+      "blocks": 0,
+      "atime": "2018-05-21T04:20:52.284Z",
+      "mtime": "2018-05-21T03:28:33.761Z",
+      "ctime": "2018-05-21T04:20:45.068Z",
+      "birthtime": "2018-05-10T18:52:39.117Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/.DS_Store absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c039bb23bea5ab29708ea232e150ba87",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/images/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-05-21T04:19:39.471Z",
+      "accessTime": "2018-05-21T03:53:35.272Z",
+      "changeTime": "2018-05-21T04:20:45.055Z",
+      "birthTime": "2018-05-21T02:10:09.178Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469847,
+      "blocks": 16,
+      "atime": "2018-05-21T03:53:35.272Z",
+      "mtime": "2018-05-21T04:19:39.471Z",
+      "ctime": "2018-05-21T04:20:45.055Z",
+      "birthtime": "2018-05-21T02:10:09.178Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "74d01bb14451fe12b06d45f5cb262a00",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/images/alex-kassabov.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg",
+      "relativePath": "alex-kassabov.jpg",
+      "extension": "jpg",
+      "size": 22957,
+      "prettySize": "23 kB",
+      "modifiedTime": "2018-05-21T02:09:46.901Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.068Z",
+      "birthTime": "2018-05-21T02:09:46.901Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "alex-kassabov.jpg",
+      "ext": ".jpg",
+      "name": "alex-kassabov",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469855,
+      "blocks": 48,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-21T02:09:46.901Z",
+      "ctime": "2018-05-21T04:20:45.068Z",
+      "birthtime": "2018-05-21T02:09:46.901Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d75f945cc4438ac4b94e39c09e0b15bc",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/images/ecurrencyhodler.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png",
+      "relativePath": "ecurrencyhodler.png",
+      "extension": "png",
+      "size": 45191,
+      "prettySize": "45.2 kB",
+      "modifiedTime": "2018-05-21T02:08:26.129Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.065Z",
+      "birthTime": "2018-05-21T02:08:26.120Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "ecurrencyhodler.png",
+      "ext": ".png",
+      "name": "ecurrencyhodler",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469853,
+      "blocks": 96,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-21T02:08:26.129Z",
+      "ctime": "2018-05-21T04:20:45.065Z",
+      "birthtime": "2018-05-21T02:08:26.120Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "257d83d11f8c1ec43b1d5f5077a51771",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/images/eric-brown.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg",
+      "relativePath": "eric-brown.jpg",
+      "extension": "jpg",
+      "size": 15160,
+      "prettySize": "15.2 kB",
+      "modifiedTime": "2018-05-21T02:08:59.704Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.060Z",
+      "birthTime": "2018-05-21T02:08:59.704Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "eric-brown.jpg",
+      "ext": ".jpg",
+      "name": "eric-brown",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469850,
+      "blocks": 32,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-21T02:08:59.704Z",
+      "ctime": "2018-05-21T04:20:45.060Z",
+      "birthtime": "2018-05-21T02:08:59.704Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/right-arrow.svg absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/right-arrow.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b1144a2d52cc4e175fb8b112f21c3444",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/images/right-arrow.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/right-arrow.svg",
+      "relativePath": "right-arrow.svg",
+      "extension": "svg",
+      "size": 755,
+      "prettySize": "755 B",
+      "modifiedTime": "2018-05-20T12:42:28.995Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.053Z",
+      "birthTime": "2018-05-20T12:42:24.640Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "right-arrow.svg",
+      "ext": ".svg",
+      "name": "right-arrow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469846,
+      "blocks": 8,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-20T12:42:28.995Z",
+      "ctime": "2018-05-21T04:20:45.053Z",
+      "birthtime": "2018-05-20T12:42:24.640Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/twitter-logo.svg absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/twitter-logo.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ba6c6ca6464f2e3facd24d2e45c8c3fa",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/images/twitter-logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/twitter-logo.svg",
+      "relativePath": "twitter-logo.svg",
+      "extension": "svg",
+      "size": 40233,
+      "prettySize": "40.2 kB",
+      "modifiedTime": "2018-05-20T15:32:50.539Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.062Z",
+      "birthTime": "2018-05-20T15:32:46.487Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "twitter-logo.svg",
+      "ext": ".svg",
+      "name": "twitter-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469851,
+      "blocks": 80,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-20T15:32:50.539Z",
+      "ctime": "2018-05-21T04:20:45.062Z",
+      "birthtime": "2018-05-20T15:32:46.487Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/alex-kassabov.jpg absPath of file",
+      "internal": {
+        "contentDigest": "74d01bb14451fe12b06d45f5cb262a00",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ecurrencyhodler.png absPath of file",
+      "internal": {
+        "contentDigest": "d75f945cc4438ac4b94e39c09e0b15bc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/eric-brown.jpg absPath of file",
+      "internal": {
+        "contentDigest": "257d83d11f8c1ec43b1d5f5077a51771",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "74147ce732726a5f922f9cbc043a76b6",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/images/video-background-mobile.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png",
+      "relativePath": "video-background-mobile.png",
+      "extension": "png",
+      "size": 168375,
+      "prettySize": "168 kB",
+      "modifiedTime": "2018-05-21T03:28:33.761Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.059Z",
+      "birthTime": "2018-05-21T03:28:33.761Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "video-background-mobile.png",
+      "ext": ".png",
+      "name": "video-background-mobile",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469849,
+      "blocks": 336,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-21T03:28:33.761Z",
+      "ctime": "2018-05-21T04:20:45.059Z",
+      "birthtime": "2018-05-21T03:28:33.761Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background-mobile.png absPath of file",
+      "internal": {
+        "contentDigest": "74147ce732726a5f922f9cbc043a76b6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/litecoin-logo.svg absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/litecoin-logo.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1baee3c06b65f8a3a67503763de47cd9",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/images/litecoin-logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/litecoin-logo.svg",
+      "relativePath": "litecoin-logo.svg",
+      "extension": "svg",
+      "size": 340596,
+      "prettySize": "341 kB",
+      "modifiedTime": "2018-05-10T19:13:12.383Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.067Z",
+      "birthTime": "2018-05-10T18:57:12.982Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "litecoin-logo.svg",
+      "ext": ".svg",
+      "name": "litecoin-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469854,
+      "blocks": 672,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-10T19:13:12.383Z",
+      "ctime": "2018-05-21T04:20:45.067Z",
+      "birthtime": "2018-05-10T18:57:12.982Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "43fc281b3a75a0a025b573059c6f48a7",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/images/charlie-lee.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png",
+      "relativePath": "charlie-lee.png",
+      "extension": "png",
+      "size": 1183805,
+      "prettySize": "1.18 MB",
+      "modifiedTime": "2018-05-21T02:08:34.936Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.057Z",
+      "birthTime": "2018-05-21T02:08:34.933Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "charlie-lee.png",
+      "ext": ".png",
+      "name": "charlie-lee",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469848,
+      "blocks": 2320,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-21T02:08:34.936Z",
+      "ctime": "2018-05-21T04:20:45.057Z",
+      "birthtime": "2018-05-21T02:08:34.933Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/charlie-lee.png absPath of file",
+      "internal": {
+        "contentDigest": "43fc281b3a75a0a025b573059c6f48a7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file",
+      "children": [
+        "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "814f1583e410cab3418dbd04c3c08f56",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/images/video-background.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png",
+      "relativePath": "video-background.png",
+      "extension": "png",
+      "size": 1965666,
+      "prettySize": "1.97 MB",
+      "modifiedTime": "2018-05-20T12:27:18.722Z",
+      "accessTime": "2018-05-21T04:14:48.176Z",
+      "changeTime": "2018-05-21T04:20:45.064Z",
+      "birthTime": "2018-05-20T12:27:18.721Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images",
+      "base": "video-background.png",
+      "ext": ".png",
+      "name": "video-background",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469852,
+      "blocks": 3840,
+      "atime": "2018-05-21T04:14:48.176Z",
+      "mtime": "2018-05-20T12:27:18.722Z",
+      "ctime": "2018-05-21T04:20:45.064Z",
+      "birthtime": "2018-05-20T12:27:18.721Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file >> ImageSharp": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file",
+      "internal": {
+        "contentDigest": "814f1583e410cab3418dbd04c3c08f56",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0b3f823f4e5bb6eed794f8fabb379043",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a188c7dedf5820f6e082879c55fac98a",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d51aaf6c197c6dc872dc7331f9c87f46",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "35e584bd4f86d55262a3995ebd64f4a4"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "LAYOUT___index"
+      ],
+      "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file >> ImageSharp": [
+        "LAYOUT___index"
+      ],
+      "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file": [
+        null
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
