@@ -1,0 +1,78 @@
+import styled, { injectGlobal, css } from 'styled-components'
+
+export const fromTheme = (props) => ({ theme }) => theme[props]
+export const media = {
+  handheld: (...args) => css`
+    @media (max-width: 420px) {
+      ${ css(...args) }
+    }
+  `,
+  medium: (...args) => css`
+  @media (max-width: 850px) {
+    ${ css(...args) }
+  }
+`
+}
+
+export const theme = {
+  primary: '#6e27c5',
+  secondary: '#ffb617',
+  danger: '#f16623',
+  light: '#f4f4f4',
+  dark: '#222',
+  green: '#20D07D',
+  purple: '#5F26EF',
+  white: '#FFFFFF',
+  black: '#000000',
+  grey: '#CFCFCF',
+  lightGrey: '#EEEEEE'
+}
+
+export const Button = styled.button`
+  font-size: 12px;
+  padding: 0.25rem 1rem;
+  margin: 0 1rem;
+  height: 30px;
+  min-width: 110px;
+  background: transparent;
+  color: ${fromTheme('primary')};
+  border-radius: 100px;
+  cursor: pointer;
+  &:hover {
+    background: ${fromTheme('dark')};
+    color: ${fromTheme('white')};
+  }
+`
+
+injectGlobal`
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Roboto');
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+  }
+  
+  h1 {
+    font-weight: 300px;
+    font-family: OpenSans-Bold;
+    font-size: 31px;
+    margin: 10px auto;
+  }
+
+  h5 {
+    font-family: OpenSans-Bold;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  p {
+    margin: 3px 0;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+`
