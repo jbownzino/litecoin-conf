@@ -47,27 +47,6 @@ class ReactSwipe extends Component {
     }
 }
 
-// ReactSwipe.propTypes = {
-//      swipeOptions: PropTypes.shape({
-//         startSlide: PropTypes.number,
-//         speed: PropTypes.number,
-//         auto: PropTypes.number,
-//         continuous: PropTypes.bool,
-//         disableScroll: PropTypes.bool,
-//         stopPropagation: PropTypes.bool,
-//         swiping: PropTypes.func,
-//         callback: PropTypes.func,
-//         transitionEnd: PropTypes.func
-//     }),
-//     style: PropTypes.shape({
-//         container: PropTypes.object,
-//         wrapper: PropTypes.object,
-//         child: PropTypes.object
-//     }),
-//     id: PropTypes.string,
-//     className: PropTypes.string
-// }
-
 ReactSwipe.defaultProps = {
     swipeOptions: {},
     style: {

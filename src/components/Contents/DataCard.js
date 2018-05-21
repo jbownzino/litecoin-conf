@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  margin: 40px 20px 0 0;
+  margin-bottom: 40px;
 `
 
 const Avatar = styled.img`
@@ -33,9 +33,13 @@ const InfoWrapper = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   font-size: 12px;
-  width: 310px;
+  width: 250px;
   height: 100px;
   margin-left: 30px;
+  ${media.handheld`
+    width: 180px;
+  `}
+  
 `
 
 const H5 = styled.h5`

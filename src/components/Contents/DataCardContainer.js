@@ -6,9 +6,8 @@ import DataCard from './DataCard'
 const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 30px;
-  width: 100%;
+  justify-content: flex-start;
+  width: 90vw;
 `
 
 const DataCardContainer = ({ data }) => (

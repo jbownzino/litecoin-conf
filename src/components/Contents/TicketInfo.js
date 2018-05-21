@@ -7,10 +7,12 @@ import { tickets } from 'data/Ticket'
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 `
 
 const TicketWrapper = styled.div`
   margin: 15px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

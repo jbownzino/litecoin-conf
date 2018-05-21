@@ -13,7 +13,7 @@
     "gatsby-plugin-sharp": "^1.6.44",
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-sharp": "^1.6.24",
-    "google-map-react": "^1.0.3",
+    "google-maps-react": "^2.0.2",
     "querystring": "^0.2.0",
     "react-helmet": "^5.2.0",
     "react-swipe": "^5.1.1",

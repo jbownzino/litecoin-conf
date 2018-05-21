@@ -11,10 +11,13 @@ const Wrapper = styled.footer`
 
 const P1 = styled.p`
   margin-bottom: 0.3em;
+  text-align: center;
+
 `
 
 const P2 = styled.p`
   color: ${fromTheme('grey')};
+  text-align: center;
 `
 
 const Footer = () => (

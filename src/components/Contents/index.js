@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import ReactSwipe from 'react-swipe'
-import querystring from 'querystring'
 
+import { media } from 'theme/globalStyle'
 import { speakers, day1, day2 } from 'data/Person'
 import ReactSwipeNavigation from './ReactSwipeNavigation';
 import DataCardContainer from './DataCardContainer'
@@ -11,10 +11,16 @@ import Location from './Location'
 import ContactInfo from './ContactInfo'
 
 const Wrapper = styled.div`
-  margin: 0 70px;
+  margin: 7rem;
+  ${media.medium`
+    margin: 0.5rem;
+  `}
 `
 const ContentWrapper = styled.div`
   margin-top: 100px;
+  ${media.medium`
+    margin-top: 50px;
+  `}
 `
 
 const Contents = () => (

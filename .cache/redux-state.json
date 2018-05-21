@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "517b762f64478467ebdff5c67679c0ac",
+        "contentDigest": "03f4ce2de32303eae77338a0c753b794",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -757,8 +757,8 @@
             "version": "^1.6.24"
           },
           {
-            "name": "google-map-react",
-            "version": "^1.0.3"
+            "name": "google-maps-react",
+            "version": "^2.0.2"
           },
           {
             "name": "querystring",
@@ -811,12 +811,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-21T04:20:48.439Z",
+      "buildTime": "2018-05-21T07:00:17.494Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f2d080dc792241fb3671c6aed988272c",
+        "contentDigest": "b8ee9d1bca8f6caf6d46c695bd1692fb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -826,7 +826,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bf634916da1d8004ee740dc853e3cab8",
+        "contentDigest": "3ea9e9dba1fa170a7a9c4a70de568f6d",
         "type": "Directory",
         "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
@@ -838,7 +838,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-05-20T21:14:55.075Z",
-      "accessTime": "2018-05-21T04:20:52.270Z",
+      "accessTime": "2018-05-21T07:00:19.611Z",
       "changeTime": "2018-05-21T04:20:45.095Z",
       "birthTime": "2018-05-20T15:08:58.947Z",
       "root": "/",
@@ -856,51 +856,10 @@
       "blksize": 4194304,
       "ino": 8600469878,
       "blocks": 0,
-      "atime": "2018-05-21T04:20:52.270Z",
+      "atime": "2018-05-21T07:00:19.611Z",
       "mtime": "2018-05-20T21:14:55.075Z",
       "ctime": "2018-05-21T04:20:45.095Z",
       "birthtime": "2018-05-20T15:08:58.947Z"
-    },
-    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file": {
-      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "57a60b15d2bdf3feb32091d72a881fb0",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/data/Ticket.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js",
-      "relativePath": "Ticket.js",
-      "extension": "js",
-      "size": 352,
-      "prettySize": "352 B",
-      "modifiedTime": "2018-05-20T21:29:07.525Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
-      "changeTime": "2018-05-21T04:20:45.093Z",
-      "birthTime": "2018-05-20T21:14:55.075Z",
-      "root": "/",
-      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data",
-      "base": "Ticket.js",
-      "ext": ".js",
-      "name": "Ticket",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8600469879,
-      "blocks": 8,
-      "atime": "2018-05-21T04:14:48.176Z",
-      "mtime": "2018-05-20T21:29:07.525Z",
-      "ctime": "2018-05-21T04:20:45.093Z",
-      "birthtime": "2018-05-20T21:14:55.075Z"
     },
     "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Person.js absPath of file": {
       "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Person.js absPath of file",
@@ -920,7 +879,7 @@
       "size": 4697,
       "prettySize": "4.7 kB",
       "modifiedTime": "2018-05-21T02:59:48.080Z",
-      "accessTime": "2018-05-21T04:14:48.175Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.095Z",
       "birthTime": "2018-05-20T15:09:24.334Z",
       "root": "/",
@@ -938,17 +897,58 @@
       "blksize": 4194304,
       "ino": 8600469880,
       "blocks": 16,
-      "atime": "2018-05-21T04:14:48.175Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-21T02:59:48.080Z",
       "ctime": "2018-05-21T04:20:45.095Z",
       "birthtime": "2018-05-20T15:09:24.334Z"
+    },
+    "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file": {
+      "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "57a60b15d2bdf3feb32091d72a881fb0",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/data/Ticket.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data/Ticket.js",
+      "relativePath": "Ticket.js",
+      "extension": "js",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-05-20T21:29:07.525Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
+      "changeTime": "2018-05-21T04:20:45.093Z",
+      "birthTime": "2018-05-20T21:14:55.075Z",
+      "root": "/",
+      "dir": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/data",
+      "base": "Ticket.js",
+      "ext": ".js",
+      "name": "Ticket",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8600469879,
+      "blocks": 8,
+      "atime": "2018-05-21T06:28:38.306Z",
+      "mtime": "2018-05-20T21:29:07.525Z",
+      "ctime": "2018-05-21T04:20:45.093Z",
+      "birthtime": "2018-05-20T21:14:55.075Z"
     },
     "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ absPath of file": {
       "id": "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dc3f6d49a40ef8056381d6537ffd59e9",
+        "contentDigest": "cac7bd591ebaebd7a087aaa7eb5c2f17",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -960,7 +960,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2018-05-21T03:28:33.761Z",
-      "accessTime": "2018-05-21T04:20:52.284Z",
+      "accessTime": "2018-05-21T07:00:19.620Z",
       "changeTime": "2018-05-21T04:20:45.068Z",
       "birthTime": "2018-05-10T18:52:39.117Z",
       "root": "/",
@@ -978,7 +978,7 @@
       "blksize": 4194304,
       "ino": 8600469845,
       "blocks": 0,
-      "atime": "2018-05-21T04:20:52.284Z",
+      "atime": "2018-05-21T07:00:19.620Z",
       "mtime": "2018-05-21T03:28:33.761Z",
       "ctime": "2018-05-21T04:20:45.068Z",
       "birthtime": "2018-05-10T18:52:39.117Z"
@@ -1001,7 +1001,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-05-21T04:19:39.471Z",
-      "accessTime": "2018-05-21T03:53:35.272Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.055Z",
       "birthTime": "2018-05-21T02:10:09.178Z",
       "root": "/",
@@ -1019,7 +1019,7 @@
       "blksize": 4194304,
       "ino": 8600469847,
       "blocks": 16,
-      "atime": "2018-05-21T03:53:35.272Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-21T04:19:39.471Z",
       "ctime": "2018-05-21T04:20:45.055Z",
       "birthtime": "2018-05-21T02:10:09.178Z"
@@ -1044,7 +1044,7 @@
       "size": 22957,
       "prettySize": "23 kB",
       "modifiedTime": "2018-05-21T02:09:46.901Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:33.135Z",
       "changeTime": "2018-05-21T04:20:45.068Z",
       "birthTime": "2018-05-21T02:09:46.901Z",
       "root": "/",
@@ -1062,7 +1062,7 @@
       "blksize": 4194304,
       "ino": 8600469855,
       "blocks": 48,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:33.135Z",
       "mtime": "2018-05-21T02:09:46.901Z",
       "ctime": "2018-05-21T04:20:45.068Z",
       "birthtime": "2018-05-21T02:09:46.901Z"
@@ -1087,7 +1087,7 @@
       "size": 45191,
       "prettySize": "45.2 kB",
       "modifiedTime": "2018-05-21T02:08:26.129Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:33.135Z",
       "changeTime": "2018-05-21T04:20:45.065Z",
       "birthTime": "2018-05-21T02:08:26.120Z",
       "root": "/",
@@ -1105,7 +1105,7 @@
       "blksize": 4194304,
       "ino": 8600469853,
       "blocks": 96,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:33.135Z",
       "mtime": "2018-05-21T02:08:26.129Z",
       "ctime": "2018-05-21T04:20:45.065Z",
       "birthtime": "2018-05-21T02:08:26.120Z"
@@ -1130,7 +1130,7 @@
       "size": 15160,
       "prettySize": "15.2 kB",
       "modifiedTime": "2018-05-21T02:08:59.704Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:33.135Z",
       "changeTime": "2018-05-21T04:20:45.060Z",
       "birthTime": "2018-05-21T02:08:59.704Z",
       "root": "/",
@@ -1148,7 +1148,7 @@
       "blksize": 4194304,
       "ino": 8600469850,
       "blocks": 32,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:33.135Z",
       "mtime": "2018-05-21T02:08:59.704Z",
       "ctime": "2018-05-21T04:20:45.060Z",
       "birthtime": "2018-05-21T02:08:59.704Z"
@@ -1171,7 +1171,7 @@
       "size": 755,
       "prettySize": "755 B",
       "modifiedTime": "2018-05-20T12:42:28.995Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.053Z",
       "birthTime": "2018-05-20T12:42:24.640Z",
       "root": "/",
@@ -1189,7 +1189,7 @@
       "blksize": 4194304,
       "ino": 8600469846,
       "blocks": 8,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-20T12:42:28.995Z",
       "ctime": "2018-05-21T04:20:45.053Z",
       "birthtime": "2018-05-20T12:42:24.640Z"
@@ -1212,7 +1212,7 @@
       "size": 40233,
       "prettySize": "40.2 kB",
       "modifiedTime": "2018-05-20T15:32:50.539Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.062Z",
       "birthTime": "2018-05-20T15:32:46.487Z",
       "root": "/",
@@ -1230,7 +1230,7 @@
       "blksize": 4194304,
       "ino": 8600469851,
       "blocks": 80,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-20T15:32:50.539Z",
       "ctime": "2018-05-21T04:20:45.062Z",
       "birthtime": "2018-05-20T15:32:46.487Z"
@@ -1285,7 +1285,7 @@
       "size": 168375,
       "prettySize": "168 kB",
       "modifiedTime": "2018-05-21T03:28:33.761Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.059Z",
       "birthTime": "2018-05-21T03:28:33.761Z",
       "root": "/",
@@ -1303,7 +1303,7 @@
       "blksize": 4194304,
       "ino": 8600469849,
       "blocks": 336,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-21T03:28:33.761Z",
       "ctime": "2018-05-21T04:20:45.059Z",
       "birthtime": "2018-05-21T03:28:33.761Z"
@@ -1336,7 +1336,7 @@
       "size": 340596,
       "prettySize": "341 kB",
       "modifiedTime": "2018-05-10T19:13:12.383Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.067Z",
       "birthTime": "2018-05-10T18:57:12.982Z",
       "root": "/",
@@ -1354,7 +1354,7 @@
       "blksize": 4194304,
       "ino": 8600469854,
       "blocks": 672,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-10T19:13:12.383Z",
       "ctime": "2018-05-21T04:20:45.067Z",
       "birthtime": "2018-05-10T18:57:12.982Z"
@@ -1379,7 +1379,7 @@
       "size": 1183805,
       "prettySize": "1.18 MB",
       "modifiedTime": "2018-05-21T02:08:34.936Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:33.135Z",
       "changeTime": "2018-05-21T04:20:45.057Z",
       "birthTime": "2018-05-21T02:08:34.933Z",
       "root": "/",
@@ -1397,7 +1397,7 @@
       "blksize": 4194304,
       "ino": 8600469848,
       "blocks": 2320,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:33.135Z",
       "mtime": "2018-05-21T02:08:34.936Z",
       "ctime": "2018-05-21T04:20:45.057Z",
       "birthtime": "2018-05-21T02:08:34.933Z"
@@ -1432,7 +1432,7 @@
       "size": 1965666,
       "prettySize": "1.97 MB",
       "modifiedTime": "2018-05-20T12:27:18.722Z",
-      "accessTime": "2018-05-21T04:14:48.176Z",
+      "accessTime": "2018-05-21T06:28:38.306Z",
       "changeTime": "2018-05-21T04:20:45.064Z",
       "birthTime": "2018-05-20T12:27:18.721Z",
       "root": "/",
@@ -1450,7 +1450,7 @@
       "blksize": 4194304,
       "ino": 8600469852,
       "blocks": 3840,
-      "atime": "2018-05-21T04:14:48.176Z",
+      "atime": "2018-05-21T06:28:38.306Z",
       "mtime": "2018-05-20T12:27:18.722Z",
       "ctime": "2018-05-21T04:20:45.064Z",
       "birthtime": "2018-05-20T12:27:18.721Z"
@@ -1481,7 +1481,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0b3f823f4e5bb6eed794f8fabb379043",
+        "contentDigest": "a515846a05f79bc7335a2a6853e14b97",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1502,7 +1502,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a188c7dedf5820f6e082879c55fac98a",
+        "contentDigest": "7f4935ed6c521344eb712d41bb3dbe38",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1523,7 +1523,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d51aaf6c197c6dc872dc7331f9c87f46",
+        "contentDigest": "fe5d886d383344d2cc99fdf5688d9405",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1531,7 +1531,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "35e584bd4f86d55262a3995ebd64f4a4"
+    "PLUGINS_HASH": "f67368c74f4e2bc61b10a901d983486a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1542,6 +1542,7 @@
         "LAYOUT___index"
       ],
       "/Users/harryhur/Desktop/codes/litecoinsummit.org/src/images/video-background.png absPath of file": [
+        null,
         null
       ]
     },

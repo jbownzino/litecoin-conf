@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react'
 import ReactDOM from 'react-dom'
 import styled from 'styled-components'
 
+import { fromTheme, media } from 'theme/globalStyle'
 import ReactSwipe from './ReactSwipe'
 
 class ReactSwipeNavigation extends Component {
@@ -112,25 +113,41 @@ class ReactSwipeNavigation extends Component {
 
 const MenuWrapper = styled.div`
   display: flex;
+  justify-content: space-around;
   width: 100%;
 `
 
 const MenuItem = styled.div`
-  margin: 15px;
+  margin: 2rem;
   cursor: pointer;
+  color: ${fromTheme('lightGrey')};
+  ${media.medium`
+    font-size: 12px;
+    margin: 1rem 0.3rem;
+  `}
+  &:hover {
+    color: ${fromTheme('black')};
+  }
 `
 
 class Menu extends Component {
   render() {
-    console.log(this.props)
     var menuItems = this.props.list.map(function(item, i) {
       return (
-        <MenuItem
-          key={item}
-          onClick={this.props.swipe.bind(this.props.father, i)}
-        >
-          {item}
-        </MenuItem>
+        (this.props.position === i) ?
+          <MenuItem
+            key={item}
+            style={{ color: 'black' }}
+            onClick={this.props.swipe.bind(this.props.father, i)}
+          >
+            {item}
+          </MenuItem> :
+          <MenuItem
+            key={item}
+            onClick={this.props.swipe.bind(this.props.father, i)}
+          >
+            {item}
+          </MenuItem>
       )
     }, this)
 
@@ -149,12 +166,5 @@ ReactSwipeNavigation.defaultProps = {
   maxY: 50,
   speed: 300,
 }
-
-// ReactSwipeNavigation.propTypes = {
-//     menu: PropTypes.array,
-//     minX: PropTypes.number,
-//     maxY: PropTypes.number,
-//     speed: PropTypes.number
-// }
 
 export default ReactSwipeNavigation
