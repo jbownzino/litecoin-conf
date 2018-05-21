@@ -49,7 +49,7 @@ export const speakers = [
   },
   {
     name: "ecurrencyhodler",
-    info: "Moderator of the subreddit Litecoin",
+    info: "Author of Understanding Litecoin: The Digital Currency for Payments",
     avatar: "https://i.imgur.com/LUFPnkh.png",
     social: {
       twitter: "https://twitter.com/ecurrencyhodler"
