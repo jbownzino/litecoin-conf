@@ -115,7 +115,7 @@ export const day1 = [
     avatar: "",
   },
   {
-    name: "Xinxi Wong",
+    name: "Xinxi Wang",
     location: "Main Room",
     info: "15:00 - 15:30",
     avatar: "",
