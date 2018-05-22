@@ -197,7 +197,7 @@ export const day2 = [
     avatar: "",
   },
   {
-    name: "Hard Wallets (Kathryn Raught)",
+    name: "TBA",
     location: "Baden Room A",
     info: "13:30 - 14:00",
     avatar: "",
