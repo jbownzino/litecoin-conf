@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 import videoBackground from 'images/video-background.png'
 import videoBackgroundMobile from 'images/video-background-mobile.png'
-import rightArrow from 'images/right-arrow.svg'
 import { Button, fromTheme, media } from 'theme/globalStyle'
+import Counter from './Counter'
 
 const Wrapper = styled.div`
   background: url(${videoBackground}) no-repeat center;
@@ -33,25 +33,11 @@ const H1 = styled.h1`
   font-size: 20px;
 `
 
-const ArrowButton = Button.extend`
-  background: ${fromTheme('white')};
-  color: ${fromTheme('black')};
-  border: 2px solid ${fromTheme('white')};
-  &:hover {
-    background: ${fromTheme('white')};
-    color: ${fromTheme('purple')};
-  }
-`
-
-const Arrow = styled.img`
-  margin-right: 3px;
-`
-
 const Media = () => (
   <Wrapper>
     <InfoWrapper>
-      <H1>#LTCSF18</H1>
-      <ArrowButton><Arrow src={rightArrow}/>Watch Live</ArrowButton>
+      <H1>#LTCSF18 Watch Live</H1>
+      <Counter />
     </InfoWrapper>
   </Wrapper>
 )
