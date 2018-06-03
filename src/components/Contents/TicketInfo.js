@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Button, fromTheme } from 'theme/globalStyle'
-import { tickets } from 'data/Ticket'
+import { tickets } from 'data'
 
 const Wrapper = styled.div`
   display: flex;

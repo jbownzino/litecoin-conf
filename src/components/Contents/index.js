@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ReactSwipe from 'react-swipe'
 
 import { media } from 'theme/globalStyle'
-import { speakers, day1, day2 } from 'data/Person'
+import { speakers, day1, day2 } from 'data'
 import ReactSwipeNavigation from './ReactSwipeNavigation';
 import DataCardContainer from './DataCardContainer'
 import TicketInfo from './TicketInfo'
