@@ -88,6 +88,10 @@ injectGlobal`
     font-size: 12px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   button:focus {
     outline: 0;
   }

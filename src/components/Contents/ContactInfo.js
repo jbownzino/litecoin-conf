@@ -11,7 +11,9 @@ const Wrapper = styled.div`
 const ContactInfo = () => (
   <Wrapper>
     <h5>Have a Question?</h5>
-    <p>For all enquiries please email: conference@litecoinfoundation.net</p>
+    <p>For all enquiries, please email: <a href={'mailto:conference@litecoinfoundation.net'}>conference@litecoinfoundation.net</a></p>
+    <h5>Interested in being a sponsor?</h5>
+    <p>For all enquiries, please email: <a href={'mailto:sponsorships@litecoinfoundation.net'}>sponsorships@litecoinfoundation.net</a></p>
   </Wrapper>
 )
 
