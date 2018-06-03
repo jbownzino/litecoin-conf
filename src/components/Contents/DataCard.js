@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   margin-bottom: 40px;
 `
 
-const Avatar = styled.img`
+const Avatar = styled.div`
   height: 100px;
   width: 100px;
   border-radius: 50%;
