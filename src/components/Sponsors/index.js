@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { sponsors } from 'data'
-
+import SponsorCardContainer from './SponsorCardContainer'
 
 const Wrapper = styled.div`
 `
@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 const SponsorWrapper = styled.div`
 `
 
-// const Sponsors = styled.div`
+// const SponsorCard = styled.div`
 //   height: 100px;
 //   width: 100px;
 //   border-radius: 50%;
@@ -22,10 +22,13 @@ const SponsorWrapper = styled.div`
 
 
 
-const Sponsors = ({ logo, name }) => (
+const Sponsors = () => (
   <Wrapper>
     <div>Sponsors</div>
     <SponsorWrapper>
+      <SponsorCardContainer data={sponsors.platinum} type='platinum' />
+      <SponsorCardContainer data={sponsors.gold} type='gold' />
+      <SponsorCardContainer data={sponsors.silver} type='silver' />
     </SponsorWrapper>
   </Wrapper>
 )

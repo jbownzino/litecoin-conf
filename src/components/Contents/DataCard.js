@@ -42,7 +42,6 @@ const InfoWrapper = styled.div`
   ${media.handheld`
     width: 180px;
   `}
-
 `
 
 const H5 = styled.h5`

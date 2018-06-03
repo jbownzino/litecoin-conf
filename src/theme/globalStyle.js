@@ -1,6 +1,10 @@
 import styled, { injectGlobal, css } from 'styled-components'
 
 export const fromTheme = (props) => ({ theme }) => theme[props]
+
+export const sponsorLogo = (props) => ({ type }) => sponsorLogoType[type]
+export const sponsorLetter = (props) => ({ type }) => sponsorLetterType[type]
+
 export const media = {
   handheld: (...args) => css`
     @media (max-width: 420px) {
@@ -12,6 +16,18 @@ export const media = {
     ${ css(...args) }
   }
 `
+}
+
+export const sponsorLogoType = {
+  platinum: '100px',
+  gold: '50px',
+  silver: '30px',
+}
+
+export const sponsorLetterType = {
+  platinum: '30px',
+  gold: '10px',
+  silver: '15px',
 }
 
 export const theme = {

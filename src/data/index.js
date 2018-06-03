@@ -236,3 +236,72 @@ export const tickets = [
     price: 40
   }
 ]
+
+export const sponsors = {
+  platinum: [
+    {
+      logo: '',
+      name: 'AAA',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'AAA',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'AAA',
+      link: ''
+    }
+  ],
+  gold: [
+    {
+      logo: '',
+      name: 'BBB',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'BBB',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'BBB',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'BBB',
+      link: ''
+    },
+  ],
+  Silver: [
+    {
+      logo: '',
+      name: 'CCC',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'CCC',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'CCC',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'CCC',
+      link: ''
+    },
+    {
+      logo: '',
+      name: 'CCC',
+      link: ''
+    },
+  ]
+}
