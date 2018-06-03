@@ -11,7 +11,7 @@ import Location from './Location'
 import ContactInfo from './ContactInfo'
 
 const Wrapper = styled.div`
-  margin: 7rem;
+  margin: 7rem 7rem 0 7rem;
   ${media.medium`
     margin: 0.5rem;
   `}
