@@ -63,8 +63,8 @@ const TicketInfo = () => (
     <h3>Pay with Litecoin or USD via PayPal</h3>
     <ContentWrapper>
     {tickets &&
-      tickets.map(({ title, content, img, price }, i) => (
-        <TicketWrapper key={i}>  
+      tickets.map(({ title, content, img, price, link }, i) => (
+        <TicketWrapper key={i}>
           {img.length === 0 ?
             <EmptyImg/> :
             <Img src={img} />
@@ -73,7 +73,9 @@ const TicketInfo = () => (
             <h5>{title}</h5>
             {content.map((each, j) => <P key={j}>{each}</P>)}
           </InfoWrapper>
-          <BookButton>Book Ticket | ${price}</BookButton>
+          <form action={link}>
+            <BookButton>Book Ticket | ${price}</BookButton>
+          </form>
         </TicketWrapper>
       ))
     }
