@@ -228,14 +228,16 @@ export const tickets = [
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
     content: ["Access to both days of the summit", "Free Lanyard on arrival", "*Non Refundable"],
-    price: 490
+    price: 490,
+    link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
   {
     title: "Summit Day 2",
     src: "https://i.imgur.com/Ydue1uN.jpg",
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
     content: ["Access to summit on 15th Sep Only", "Free Lanyard on arrival", "*Non Refundable"],
-    price: 49
+    price: 49,
+    link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/"
   }
 ]
 

@@ -7,6 +7,10 @@ import SponsorCardContainer from './SponsorCardContainer'
 const Wrapper = styled.div`
 `
 
+const Header = styled.h1`
+
+`
+
 const SponsorWrapper = styled.div`
 `
 
@@ -23,7 +27,7 @@ const SponsorWrapper = styled.div`
 
 const Sponsors = () => (
   <Wrapper>
-    <div>Sponsors</div>
+    <Header>Sponsors</Header>
     <SponsorWrapper>
       <SponsorCardContainer data={sponsors.platinum} type='platinum' />
       <SponsorCardContainer data={sponsors.gold} type='gold' />
