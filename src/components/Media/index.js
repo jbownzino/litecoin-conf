@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 import videoBackground from 'images/video-background.png'
 import videoBackgroundMobile from 'images/video-background-mobile.png'
@@ -33,8 +34,9 @@ const H1 = styled.h1`
   font-size: 20px;
 `
 
-const Media = () => (
+const Media = ({ data }) => (
   <Wrapper>
+    {console.log( data )}
     <InfoWrapper>
       <H1>#LTCSF18 Watch Live</H1>
       <Counter />

@@ -4,15 +4,13 @@ import { fromTheme, sponsorLogo, sponsorLetter, media } from 'theme/globalStyle'
 
 const Wrapper = styled.div`
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
 `
 
-const Logo = styled.div`
-  min-height: ${props => sponsorLogo(props.type)};
-  min-width: ${props => sponsorLogo(props.type)};
+const Logo = styled.img`
   margin: 0;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(${props => props.img});
+  width: ${props => sponsorLogo(props.type)};
 `
 
 const EmptyLogo = styled.div`
@@ -26,11 +24,11 @@ const Title = styled.span`
   font-size: ${props => sponsorLetter(props.type)};
 `
 
-const SponsorCard = ({ name, logo, type }) => (
-  <Wrapper>
-    {logo.length === 0 ?
+const SponsorCard = ({ name, src, site, type }) => (
+  <Wrapper type={type}>
+    {src.length === 0 ?
       <EmptyLogo type={type} /> :
-      <Logo img={logo} type={type} />
+      <Logo src={src} type={type} />
     }
     <Title type={type}>{name}</Title>
   </Wrapper>

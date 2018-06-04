@@ -21,7 +21,6 @@ const SponsorWrapper = styled.div`
 // `
 
 
-
 const Sponsors = () => (
   <Wrapper>
     <div>Sponsors</div>

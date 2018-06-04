@@ -225,13 +225,15 @@ export const day2 = [
 export const tickets = [
   {
     title: "Summit Day 1 + 2",
-    img: "",
+    src: "https://i.imgur.com/4XTtKta.jpg",
+    link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
     content: ["Access to both days of the summit", "Free Lanyard on arrival", "*Non Refundable"],
     price: 490
   },
   {
     title: "Summit Day 2",
-    img: "",
+    src: "https://i.imgur.com/Ydue1uN.jpg",
+    link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
     content: ["Access to summit on 15th Sep Only", "Free Lanyard on arrival", "*Non Refundable"],
     price: 49
   }
@@ -240,68 +242,11 @@ export const tickets = [
 export const sponsors = {
   platinum: [
     {
-      logo: '',
-      name: 'AAA',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'AAA',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'AAA',
-      link: ''
-    }
-  ],
-  gold: [
-    {
-      logo: '',
-      name: 'BBB',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'BBB',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'BBB',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'BBB',
-      link: ''
+      src: 'https://i.imgur.com/NCGWEnM.png',
+      name: 'Reaction Audio Visual',
+      site: 'https://www.reactionav.com/'
     },
   ],
-  Silver: [
-    {
-      logo: '',
-      name: 'CCC',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'CCC',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'CCC',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'CCC',
-      link: ''
-    },
-    {
-      logo: '',
-      name: 'CCC',
-      link: ''
-    },
-  ]
+  gold: [],
+  Silver: []
 }

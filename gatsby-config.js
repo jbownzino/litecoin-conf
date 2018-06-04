@@ -13,16 +13,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`
-      }
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `img`,
-        path: `${__dirname}/src/images/`
-      }
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
     },
   ],
 }

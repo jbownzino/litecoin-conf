@@ -5,13 +5,33 @@ import Media from 'components/Media'
 import Contents from 'components/Contents'
 import Sponsors from 'components/Sponsors'
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <Fragment>
-    <TextSummitInfo/>
-    <Media/>
-    <Contents/>
-    <Sponsors/>
+    <TextSummitInfo />
+    <Media data={data} />
+    <Contents />
+    <Sponsors />
   </Fragment>
 )
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    imageOne: imageSharp(id: { regex: "/rav-logo.png/" }) {
+      sizes(maxWidth: 630) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+    background: imageSharp(id: { regex: "/video-background.png/"}) {
+      sizes(maxWidth: 630) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+    backgroundMobile: imageSharp(id: { regex: "/video-background-mobile.png/"}) {
+      sizes(maxWidth: 630) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`

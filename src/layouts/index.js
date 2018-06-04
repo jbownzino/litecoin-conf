@@ -51,10 +51,5 @@ export const query = graphql`
         title
       }
     }
-    imageOne: imageSharp(id: { regex: "/video-background.png/" }) {
-      sizes(maxWidth: 630) {
-        ...GatsbyImageSharpSizes
-      }
-    }
   }
 `

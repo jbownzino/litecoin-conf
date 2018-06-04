@@ -33,7 +33,7 @@ const InfoWrapper = styled.div`
 `
 
 const Img = styled.img`
-
+  height: 310px;
 `
 
 const EmptyImg = styled.div`
@@ -63,17 +63,19 @@ const TicketInfo = () => (
     <h3>Pay with Litecoin or USD via PayPal</h3>
     <ContentWrapper>
     {tickets &&
-      tickets.map(({ title, content, img, price }, i) => (
+      tickets.map(({ title, content, src, link, price }, i) => (
         <TicketWrapper key={i}>  
-          {img.length === 0 ?
+          {src.length === 0 ?
             <EmptyImg/> :
-            <Img src={img} />
+            <Img src={src} />
           }
           <InfoWrapper>
             <h5>{title}</h5>
             {content.map((each, j) => <P key={j}>{each}</P>)}
           </InfoWrapper>
-          <BookButton>Book Ticket | ${price}</BookButton>
+          <a target='_blank' href={link}>
+            <BookButton>Book Ticket | ${price}</BookButton>
+          </a>
         </TicketWrapper>
       ))
     }
