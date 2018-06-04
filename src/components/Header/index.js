@@ -32,7 +32,7 @@ const Header = () => (
       title='Header Image'
       alt='san francisco'
       src={logo}/>
-    <BlueButton>Book Tickets</BlueButton>
+    <a target='_blank' href='https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/'><BlueButton>Book Tickets</BlueButton></a>
   </Wrapper>
 )
 
