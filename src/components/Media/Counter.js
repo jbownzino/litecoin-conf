@@ -63,7 +63,7 @@ const renderer = ({ completed, days, hours, minutes, seconds }) =>
 
 const Counter = () => (
   <Countdown
-    date={Date.parse(new Date('September 14, 2018'))}
+    date={Date.parse(new Date(Date.UTC(2018, 8, 14, 15)))}
     renderer={renderer}
   />
 )

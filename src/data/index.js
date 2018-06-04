@@ -8,7 +8,7 @@ export const speakers = [
     }
   },
   {
-    name: "Xinxi Wong",
+    name: "Xinxi Wang",
     info: "Litecoin Foundation Director",
     avatar: "https://i.imgur.com/uVMkscR.png",
     social: {
@@ -63,6 +63,22 @@ export const speakers = [
       twitter: ""
     }
   },
+  {
+    name: "Jon Moore",
+    info: "VP of Nationwide Merchant Solutions",
+    avatar: "https://i.imgur.com/nNSiLer.jpg",
+    social: {
+      twitter: ""
+    }
+  },
+  {
+    name: "Py Patel",
+    info: "Youtuber, Piece Of The Py Show",
+    avatar: "https://i.imgur.com/oaNASWz.jpg",
+    social: {
+      twitter: ""
+    }
+  },
 ]
 
 export const day1 = [
@@ -70,85 +86,85 @@ export const day1 = [
     name: "Onsite Registration/Sign-In",
     location: "Lobby Area",
     info: "08:00 - 09:45",
-    avatar: "",
+    avatar: "https://i.imgur.com/67cQbSg.jpg",
   },
   {
     name: "Welcome: Administrative Notes",
     location: "Main Room",
     info: "09:45 - 10:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/LUFPnkh.png",
   },
   {
     name: "Keynote: Charlie Lee (Creator)",
     location: "Main Room",
     info: "10:00 - 11:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
     name: "TBA",
     location: "Main Room",
     info: "11:00 - 12:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "LUNCH",
     location: "Main Room",
     info: "12:00 - 13:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/le6QjRT.jpg",
   },
   {
     name: "Eric Brown for Aliant Payments",
     location: "Main Room",
     info: "13:45 - 14:15",
-    avatar: "",
+    avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
     name: "Break",
     location: "Main Room",
     info: "14:15 - 14:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/tcZlOio.jpg",
   },
   {
     name: "TBA",
     location: "Main Room",
     info: "14:30 - 15:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Xinxi Wang",
     location: "Main Room",
     info: "15:00 - 15:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/uVMkscR.png",
   },
   {
     name: "Franklyn Richards",
     location: "Main Room",
     info: "15:30 - 16:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/o7AvG0x.jpg",
   },
   {
     name: "Break - time to set up for fireside chat with LF Directors",
     location: "Main Room",
     info: "16:00 - 16:15",
-    avatar: "",
+    avatar: "https://i.imgur.com/KTSjjCy.jpg",
   },
   {
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
     location: "Main Room",
     info: "16:15 - 16:45",
-    avatar: "",
+    avatar: "https://i.imgur.com/69ONnEM.jpg",
   },
   {
     name: "TBA",
     location: "Main Room",
     info: "16:45 - 18:15",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
     location: "Lobby & Prefunctory Lobby Areas",
     info: "18:15 - End",
-    avatar: "",
+    avatar: "https://i.imgur.com/SQ8n5pF.jpg",
   },
 
 ]
@@ -158,67 +174,67 @@ export const day2 = [
     name: "Set Up",
     location: "All Rooms",
     info: "06:00 - 09:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/KTSjjCy.jpg",
   },
   {
     name: "Open to the Public",
     location: "Main Room",
     info: "09:00 - 10:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/PnZYA4T.jpg",
   },
   {
     name: "Aliant - Eric Brown",
     location: "Baden Room A",
     info: "10:00 - 10:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
     name: "TBA",
     location: "Oyster Joint",
     info: "10:30 - 10:45",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Taxation in Cryptocurrency (Alexi Kassabov)",
     location: "Baden Room A",
     info: "10:45 - 11:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/Bhlmpng.jpg",
   },
   {
     name: "Litecoin School of Crypto",
     location: "Baden Room A",
     info: "11:45 - 12:15",
-    avatar: "",
+    avatar: "https://i.imgur.com/7MWFYKo.jpg",
   },
   {
     name: "TravelbyBit - Current crypto adoption in Austrailia",
     location: "Baden Room A",
     info: "12:30 - 13:15",
-    avatar: "",
+    avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
     name: "TBA",
     location: "Baden Room A",
     info: "13:30 - 14:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
     location: "Baden Room A",
     info: "14:15 - 14:45",
-    avatar: "",
+    avatar: "https://i.imgur.com/nNSiLer.jpg",
   },
   {
     name: "Decentralization (Piece of the Py)",
     location: "Baden Room A",
     info: "15:00 - 15:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/oaNASWz.jpg",
   },
   {
     name: "Aliant - Eric Brown",
     location: "Baden Room A",
     info: "15:30 - 16:00",
-    avatar: "",
+    avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
 ]
 
