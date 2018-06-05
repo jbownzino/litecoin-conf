@@ -30,7 +30,7 @@ const Contents = () => (
       <ContentWrapper><DataCardContainer data={day1}/></ContentWrapper>
       <ContentWrapper><DataCardContainer data={day2}/></ContentWrapper>
       <ContentWrapper><TicketInfo /></ContentWrapper>
-      <ContentWrapper><Location /></ContentWrapper>
+      <ContentWrapper><Location isMarkerShown /></ContentWrapper>
       <ContentWrapper><ContactInfo /></ContentWrapper>
     </ReactSwipeNavigation>
   </Wrapper>

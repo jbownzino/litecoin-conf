@@ -1,6 +1,13 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components'
-import { GoogleApiWrapper, Map, InfoWindow, Marker } from 'google-maps-react'
+import { compose, withProps } from 'recompose'
+import {
+  withGoogleMap,
+  GoogleMap,
+  Marker,
+  InfoWindow,
+  withScriptjs,
+} from 'react-google-maps'
 
 import { media } from 'theme/globalStyle'
 
@@ -18,47 +25,35 @@ const MapWrapper = styled.div`
   height: 70vh;
   ${media.medium`
     height: 50vh;
-  `}
+  `};
 `
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>
+const MapContainer = compose(
+  withProps({
+    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=AIzaSyARfanpqQgbjkIWsbpg2DgpN-Lo_-3MO0s&v=3.exp&libraries=geometry,drawing,places`,
+    loadingElement: <div style={{ height: `100%` }} />,
+    containerElement: <MapWrapper />,
+    mapElement: <div style={{ height: `100%` }} />,
+    defaultCenter: { lat: 37.6474606, lng: -122.4043781 },
+    defaultZoom: 11,
+    name: 'South San Francisco Conference Center',
+    address: '255 S Airport Blvd, South San Francisco, CA 94080',
+  }),
+  withScriptjs,
+  withGoogleMap
+)(({ isMarkerShown, defaultCenter, defaultZoom, name, address }) => (
+  <GoogleMap defaultCenter={defaultCenter} defaultZoom={defaultZoom}>
+    {isMarkerShown && (
+      <Marker position={defaultCenter}>
+        <InfoWindow>
+          <div>
+            <h5>{name}</h5>
+            <p>{address}</p>
+          </div>
+        </InfoWindow>
+      </Marker>
+    )}
+  </GoogleMap>
+))
 
-class MapContainer extends Component {
-  static defaultProps = {
-    center: {
-      lat: 37.6474606,
-      lng: -122.4043781
-    },
-    zoom: 11
-  };
-
-  render() {
-    const { google, center } = this.props
-    return (
-      <Wrapper>
-        <TextWrapper>
-          <h5>Local Area and Travel</h5>
-          <p>You can find the location of the conference center as well as local hotels and activites below. If you’re flying in to San Francisco check out our sponsor CheapAir.com for some of the best rates and pay for your flight directly with Litecoin.</p>
-        </TextWrapper>
-        <MapWrapper>
-        <Map
-          google={google}
-          zoom={14}
-          initialCenter={center}
-        >
-          <Marker onClick={this.onMarkerClick}
-            title={'South San Francisco Conference Center'}
-            name={'South San Francisco Conference Center'}
-            position={center}
-          />
-        </Map>
-        </MapWrapper>
-      </Wrapper>
-      // Important! Always set the container height explicitly
-    );
-  }
-}
-
-export default GoogleApiWrapper({
-  apiKey: ('AIzaSyCU4oZq-XhEpk8D_Z5pWKGl9J4bF0Dy9L0')
-})(MapContainer)
+export default MapContainer

@@ -152,7 +152,7 @@ export const day1 = [
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
     location: "Main Room",
     info: "16:15 - 16:45",
-    avatar: "https://i.imgur.com/69ONnEM.jpg",
+    avatar: "https://i.imgur.com/PcLLdAJ.jpg",
   },
   {
     name: "TBA",
@@ -260,7 +260,7 @@ export const tickets = [
 export const sponsors = {
   platinum: [
     {
-      src: 'https://i.imgur.com/NCGWEnM.png',
+      src: 'https://i.imgur.com/IHiJkU4.jpg',
       name: 'Reaction Audio Visual',
       site: 'https://www.reactionav.com/'
     },
