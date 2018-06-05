@@ -34,9 +34,8 @@ const H1 = styled.h1`
   font-size: 20px;
 `
 
-const Media = ({ data }) => (
+const Media = () => (
   <Wrapper>
-    {console.log( data )}
     <InfoWrapper>
       <H1>#LTCSF18 Watch Live</H1>
       <Counter />
