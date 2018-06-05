@@ -14,6 +14,7 @@ import { media } from 'theme/globalStyle'
 const Wrapper = styled.div`
   margin: 0;
 `
+
 const TextWrapper = styled.div`
   display: flex;
   align-items: flex-start;
@@ -21,19 +22,20 @@ const TextWrapper = styled.div`
 `
 
 const MapWrapper = styled.div`
-  width: 100vw;
+  width: 83vw;
   height: 70vh;
   ${media.medium`
     height: 50vh;
+    width: 95vw;
   `};
 `
 
 const MapContainer = compose(
   withProps({
     googleMapURL: `https://maps.googleapis.com/maps/api/js?key=AIzaSyARfanpqQgbjkIWsbpg2DgpN-Lo_-3MO0s&v=3.exp&libraries=geometry,drawing,places`,
-    loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <MapWrapper />,
-    mapElement: <div style={{ height: `100%` }} />,
+    loadingElement: <div style={{ height: `70vh` }} />,
+    containerElement: <MapWrapper/>,
+    mapElement: <div id='c' style={{ height: `70vh` }} />,
     defaultCenter: { lat: 37.6474606, lng: -122.4043781 },
     defaultZoom: 11,
     name: 'South San Francisco Conference Center',
