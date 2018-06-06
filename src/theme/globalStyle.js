@@ -61,16 +61,18 @@ export const Button = styled.button`
 `
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
   body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     overflow-y: scroll;
   }
+  h1, h3, h5 {
+    font-weight: bold;
+  }
 
   h1 {
-    font-weight: 300px;
     font-size: 31px;
     margin: 10px auto;
   }
