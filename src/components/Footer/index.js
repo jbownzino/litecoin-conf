@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { fromTheme } from 'theme/globalStyle'
 
 const Wrapper = styled.footer`
-  font-family: OpenSans-Light;
   font-size: 11px;
   margin: 0 100px;
 `

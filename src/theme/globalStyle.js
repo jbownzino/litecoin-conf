@@ -61,7 +61,7 @@ export const Button = styled.button`
 `
 
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Roboto');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   body {
     padding: 0;
     margin: 0;
@@ -71,13 +71,11 @@ injectGlobal`
 
   h1 {
     font-weight: 300px;
-    font-family: OpenSans-Bold;
     font-size: 31px;
     margin: 10px auto;
   }
 
   h5 {
-    font-family: OpenSans-Bold;
     font-size: 12px;
     text-align: left;
   }

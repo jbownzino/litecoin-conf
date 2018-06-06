@@ -50,7 +50,6 @@ const H5 = styled.h5`
 `
 
 const P = styled.p`
-  font-family: OpenSans-Light;
   margin: 0;
 `
 const SocialLink = styled.a`
