@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "litecoin-summit-2018",
+  "description": "Litecoin Summit 2018 website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Harry Hur <harrythedev@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.269",
     "gatsby-image": "^1.0.51",
@@ -27,7 +27,7 @@
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "litecoin", "summit", "conference", "cryptocurrency"
   ],
   "license": "MIT",
   "scripts": {

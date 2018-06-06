@@ -3,13 +3,16 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import logo from 'images/litecoin-logo.svg'
-import { Button, fromTheme } from 'theme/globalStyle'
+import { Button, fromTheme, media } from 'theme/globalStyle'
 
 const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 20px;
+  margin: 20px;
+  ${media.medium`
+    margin: 8px
+  `}
 `
 const Logo = styled.img`
   width: 45px;
@@ -20,9 +23,12 @@ const BlueButton = Button.extend`
   background: ${fromTheme('purple')};
   color: ${fromTheme('white')};
   border: 2px solid ${fromTheme('purple')};
+  ${media.medium`
+    margin-right: 0;
+  `}
   &:hover {
     background: ${fromTheme('white')};
-    color: ${fromTheme('purple')};w
+    color: ${fromTheme('purple')};
   }
 `
 
