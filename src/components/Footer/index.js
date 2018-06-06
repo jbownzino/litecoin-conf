@@ -11,7 +11,6 @@ const Wrapper = styled.footer`
 const P1 = styled.p`
   margin-bottom: 0.3em;
   text-align: center;
-
 `
 
 const P2 = styled.p`
@@ -21,10 +20,16 @@ const P2 = styled.p`
 
 const Footer = () => (
   <Wrapper>
-    <P1> © 2018 Litecoin Foundation</P1>
-    <P2>contact@litecoinfoundation.net</P2>
-    <P2>Legal Disclaimer</P2>
-    <P2>Privacy Policy</P2>
+    <P1>© 2018 Litecoin Foundation</P1>
+    <a target="_blank" href="mailto:contact@litecoinfoundation.net">
+      <P2>contact@litecoinfoundation.net</P2>
+    </a>
+    <a target="_blank" href="">
+      <P2>Legal Disclaimer</P2>
+    </a>
+    <a target="_blank" href="https://litecoin-foundation.org/privacy-policy/">
+      <P2>Privacy Policy</P2>
+    </a>
   </Wrapper>
 )
 

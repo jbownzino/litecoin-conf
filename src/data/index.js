@@ -86,13 +86,13 @@ export const day1 = [
     name: "Onsite Registration/Sign-In",
     location: "Lobby Area",
     info: "08:00 - 09:45",
-    avatar: "https://i.imgur.com/67cQbSg.jpg",
+    avatar: "https://i.imgur.com/SVCpYj5.png",
   },
   {
     name: "Welcome: Administrative Notes",
     location: "Main Room",
     info: "09:45 - 10:00",
-    avatar: "https://i.imgur.com/LUFPnkh.png",
+    avatar: "https://i.imgur.com/mjitZOd.png",
   },
   {
     name: "Keynote: Charlie Lee (Creator)",
@@ -110,7 +110,7 @@ export const day1 = [
     name: "LUNCH",
     location: "Main Room",
     info: "12:00 - 13:00",
-    avatar: "https://i.imgur.com/le6QjRT.jpg",
+    avatar: "https://i.imgur.com/sWA59i7.png",
   },
   {
     name: "Eric Brown for Aliant Payments",
@@ -122,7 +122,7 @@ export const day1 = [
     name: "Break",
     location: "Main Room",
     info: "14:15 - 14:30",
-    avatar: "https://i.imgur.com/tcZlOio.jpg",
+    avatar: "https://i.imgur.com/R4YE0I2.png",
   },
   {
     name: "TBA",
@@ -146,7 +146,7 @@ export const day1 = [
     name: "Break - time to set up for fireside chat with LF Directors",
     location: "Main Room",
     info: "16:00 - 16:15",
-    avatar: "https://i.imgur.com/KTSjjCy.jpg",
+    avatar: "https://i.imgur.com/R4YE0I2.png",
   },
   {
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
@@ -164,7 +164,7 @@ export const day1 = [
     name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
     location: "Lobby & Prefunctory Lobby Areas",
     info: "18:15 - End",
-    avatar: "https://i.imgur.com/SQ8n5pF.jpg",
+    avatar: "https://i.imgur.com/7oFwKN9.png",
   },
 
 ]
@@ -180,7 +180,7 @@ export const day2 = [
     name: "Open to the Public",
     location: "Main Room",
     info: "09:00 - 10:00",
-    avatar: "https://i.imgur.com/PnZYA4T.jpg",
+    avatar: "https://i.imgur.com/qlZkE8D.png",
   },
   {
     name: "Aliant - Eric Brown",

@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   align-items: center;
   margin: 20px;
   ${media.medium`
-    margin: 8px
+    margin: 8px;
   `}
 `
 const Logo = styled.img`
