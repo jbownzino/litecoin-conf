@@ -40,7 +40,7 @@ export const speakers = [
     }
   },
   {
-    name: "Caled Yeoh",
+    name: "Caleb Yeoh",
     info: "Travel by Bit CEO",
     avatar: "https://i.imgur.com/J76oyGB.png",
     social: {
