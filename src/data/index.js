@@ -79,6 +79,14 @@ export const speakers = [
       twitter: ""
     }
   },
+  {
+    name: "???",
+    info: "TBA",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    social: {
+      twitter: ""
+    }
+  },
 ]
 
 export const day1 = [
@@ -177,7 +185,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/KTSjjCy.jpg",
   },
   {
-    name: "Open to the Public",
+    name: "Bazaar: Open to the Public",
     location: "Main Room",
     info: "09:00 - 10:00",
     avatar: "https://i.imgur.com/qlZkE8D.png",
@@ -187,12 +195,6 @@ export const day2 = [
     location: "Baden Room A",
     info: "10:00 - 10:30",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
-  },
-  {
-    name: "TBA",
-    location: "Oyster Joint",
-    info: "10:30 - 10:45",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Taxation in Cryptocurrency (Alexi Kassabov)",
