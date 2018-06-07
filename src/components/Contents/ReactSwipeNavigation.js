@@ -160,7 +160,7 @@ class Menu extends Component {
 }
 
 ReactSwipeNavigation.defaultProps = {
-  menu: ['Speakers', 'Day 1', 'Day 2', 'Tickets', 'Traveling', 'Contact'],
+  menu: ['Speakers', 'Day 1', 'Day 2', 'Tickets', 'Traveling', 'Contact', 'Sponsors'],
   // thresholds for valid swipe
   minX: 5,
   maxY: 50,
