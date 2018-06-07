@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "author": "Harry Hur <harrythedev@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.269",
+    "gatsby": "^1.9.270",
     "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-react-next": "^1.0.11",
     "gatsby-plugin-resolve-src": "^1.1.3",
-    "gatsby-plugin-sharp": "^1.6.46",
+    "gatsby-plugin-sharp": "^1.6.47",
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-sharp": "^1.6.26",
@@ -27,7 +27,11 @@
     "typeface-open-sans": "^0.0.54"
   },
   "keywords": [
-    "gatsby", "litecoin", "summit", "conference", "cryptocurrency"
+    "gatsby",
+    "litecoin",
+    "summit",
+    "conference",
+    "cryptocurrency"
   ],
   "license": "MIT",
   "scripts": {
