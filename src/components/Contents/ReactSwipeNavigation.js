@@ -115,6 +115,10 @@ const MenuWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  padding-left: 19vw;
+  ${media.handheld`
+    padding-left: 6vw;
+  `}
 `
 
 const MenuItem = styled.div`
