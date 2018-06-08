@@ -8,8 +8,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 90vw;
-  margin-left: 50px;
+  max-width: 1300px;
+  margin-left: 2rem;
   ${media.medium`
     margin-left: 0;
   `}

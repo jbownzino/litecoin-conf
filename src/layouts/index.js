@@ -27,7 +27,9 @@ const Layout = ({ children, data }) => (
           { name: 'description', content: 'Litecoin Summit' },
           { name: 'keywords', content: 'litecoin, summit, 2018' },
         ]}
-      />
+      >
+       <link rel='icon' type='image/png' href='https://i.imgur.com/eR0VQo1.png' /> 
+      </Helmet>
       <Header />
       <Wrapper>
         {children()}
