@@ -40,11 +40,19 @@ export const speakers = [
     }
   },
   {
+    name: "Bill Barhydt",
+    info: "CEO & Founder of Abra",
+    avatar: "https://pbs.twimg.com/profile_images/848707856605917184/CJAVu7HY_400x400.jpg",
+    social: {
+      twitter: "https://twitter.com/billbarhydt"
+    }
+  },
+  {
     name: "Caleb Yeoh",
     info: "Travel by Bit CEO",
     avatar: "https://i.imgur.com/J76oyGB.png",
     social: {
-      twitter: ""
+      twitter: "https://twitter.com/TravelbyBit"
     }
   },
   {
@@ -68,7 +76,7 @@ export const speakers = [
     info: "VP of Nationwide Merchant Solutions",
     avatar: "https://i.imgur.com/nNSiLer.jpg",
     social: {
-      twitter: ""
+      twitter: "https://twitter.com/jonnylitecoin"
     }
   },
   {
@@ -77,6 +85,14 @@ export const speakers = [
     avatar: "https://i.imgur.com/U6YQi21.png",
     social: {
       twitter: ""
+    }
+  },
+  {
+    name: "Shamir Allibhai",
+    info: "Zulu Republic",
+    avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
+    social: {
+      twitter: "https://twitter.com/theshamir"
     }
   },
   {
@@ -227,10 +243,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
-    name: "Zulu Republic (Who are we?)",
+    name: "Zulu Republic - Social Impacts with Blockchain",
     location: "Oyster Point",
     info: "13:30 - 14:00",
-    avatar: "https://i.imgur.com/Bq798St.png",
+    avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
@@ -245,7 +261,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
-    name: "Zulu Republic (Litevault)",
+    name: "Zulu Republic - Building a User Centric Litecoin",
     location: "Baden Room A",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
@@ -263,7 +279,7 @@ export const tickets = [
     title: "Summit Day 1 + 2",
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
-    content: ["Access to both days of the summit", "Free Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to both days of the summit", "Access to the Icebreaker", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
     price: 490,
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
@@ -271,7 +287,7 @@ export const tickets = [
     title: "Summit Day 2",
     src: "https://i.imgur.com/Ydue1uN.jpg",
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
-    content: ["Access to summit on 15th Sep Only", "Free Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to summit on 15th Sep Only", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
     price: 49,
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/"
   }
