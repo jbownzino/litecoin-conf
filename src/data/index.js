@@ -109,7 +109,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
-    name: "TBA",
+    name: "Abra (Bill Barhydt)",
     location: "Main Room",
     info: "10:45 - 11:30",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
@@ -133,7 +133,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/aSTSyqh.jpg",
   },
   {
-    name: "TBA",
+    name: "Lightning Labs (Elizabeth Stark)",
     location: "Main Room",
     info: "13:30 - 14:15",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
@@ -209,7 +209,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
-    name: "Taxation in Cryptocurrency (Alexi Kassabov)",
+    name: "Taxation in Cryptocurrency (Alexey Kassabov)",
     location: "Oyster Point",
     info: "10:45 - 11:30",
     avatar: "https://i.imgur.com/Bhlmpng.jpg",
@@ -227,10 +227,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
-    name: "TBA",
+    name: "Zulu Republic (Who are we?)",
     location: "Oyster Point",
     info: "13:30 - 14:00",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://i.imgur.com/U6YQi21.png",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
@@ -245,7 +245,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
-    name: "Michael Rodriguez - Zulu Republic, Litevault, and Lite.im",
+    name: "Zulu Republic (Litevault)",
     location: "Baden Room A",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
