@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 
 import videoBackground from 'images/video-background.png'
-import videoBackgroundMobile from 'images/video-background.png'
 import { Button, fromTheme, media } from 'theme/globalStyle'
 import Counter from './Counter'
 
@@ -14,9 +13,6 @@ const Wrapper = styled.div`
   /* background-position: center center; */
   min-height: 530px;
   width: 100%;
-  ${media.handheld`
-    background: url(${videoBackgroundMobile}) no-repeat center;
-  `}
 `
 
 const InfoWrapper = styled.div`
