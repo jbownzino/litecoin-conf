@@ -118,9 +118,9 @@ const MenuWrapper = styled.div`
 `
 
 const MenuItem = styled.div`
-  margin: 2rem;
+  margin: 1.5rem;
   cursor: pointer;
-  min-width: 42px;
+  max-width: 75px;
   color: ${fromTheme('grey')};
   ${media.medium`
     font-size: 12px;
@@ -128,6 +128,8 @@ const MenuItem = styled.div`
   `}
   &:hover {
     color: ${fromTheme('black')};
+    /* text-shadow: 1px 0 0; */
+    text-shadow: 1px 0 0 currentColor;
   }
 `
 
@@ -138,7 +140,7 @@ class Menu extends Component {
         (this.props.position === i) ?
           <MenuItem
             key={item}
-            style={{ color: 'black' }}
+            style={{ color: 'black', textShadow: '1px 0 0' }}
             onClick={this.props.swipe.bind(this.props.father, i)}
           >
             {item}

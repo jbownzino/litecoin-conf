@@ -50,7 +50,7 @@ export const speakers = [
   {
     name: "ecurrencyhodler",
     info: "Author of Understanding Litecoin: The Digital Currency for Payments",
-    avatar: "https://i.imgur.com/LUFPnkh.png",
+    avatar: "https://i.imgur.com/2CakPdG.png",
     social: {
       twitter: "https://twitter.com/ecurrencyhodler"
     }
@@ -100,7 +100,7 @@ export const day1 = [
     name: "Welcome: Administrative Notes",
     location: "Main Room",
     info: "09:45 - 10:00",
-    avatar: "https://i.imgur.com/mjitZOd.png",
+    avatar: "https://i.imgur.com/oN1Btva.png",
   },
   {
     name: "Keynote: Charlie Lee (Creator)",
@@ -124,7 +124,7 @@ export const day1 = [
     name: "LUNCH",
     location: "Main Room",
     info: "12:00 - 13:00",
-    avatar: "https://i.imgur.com/sWA59i7.png",
+    avatar: "https://i.imgur.com/JDNRaai.png",
   },
   {
     name: "Rootstock (Diego Gutiérrez Zaldívar)",
@@ -142,7 +142,7 @@ export const day1 = [
     name: "Break",
     location: "Main Room",
     info: "14:15 - 14:30",
-    avatar: "https://i.imgur.com/R4YE0I2.png",
+    avatar: "https://i.imgur.com/2CmlgfU.png",
   },
   {
     name: "Aliant (Eric Brown)",
@@ -166,7 +166,7 @@ export const day1 = [
     name: "Break - time to set up for fireside chat with LF Directors",
     location: "Main Room",
     info: "16:00 - 16:15",
-    avatar: "https://i.imgur.com/R4YE0I2.png",
+    avatar: "https://i.imgur.com/2CmlgfU.png",
   },
   {
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
@@ -184,7 +184,7 @@ export const day1 = [
     name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
     location: "Lobby & Prefunctory Lobby Areas",
     info: "18:15 - End",
-    avatar: "https://i.imgur.com/7oFwKN9.png",
+    avatar: "https://i.imgur.com/D5rlLxz.png",
   },
 
 ]
@@ -200,7 +200,7 @@ export const day2 = [
     name: "Litecoin Expo",
     location: "Main Room",
     info: "09:00 - 10:00",
-    avatar: "https://i.imgur.com/qlZkE8D.png",
+    avatar: "https://i.imgur.com/RsUC1qg.png",
   },
   {
     name: "Aliant - Eric Brown",
@@ -218,7 +218,7 @@ export const day2 = [
     name: "Litecoin School of Crypto",
     location: "Oyster Point",
     info: "11:45 - 12:15",
-    avatar: "https://i.imgur.com/7MWFYKo.jpg",
+    avatar: "https://i.imgur.com/2CakPdG.png",
   },
   {
     name: "TravelbyBit - Current crypto adoption in Austrailia",
@@ -230,7 +230,7 @@ export const day2 = [
     name: "Zulu Republic (Who are we?)",
     location: "Oyster Point",
     info: "13:30 - 14:00",
-    avatar: "https://i.imgur.com/U6YQi21.png",
+    avatar: "https://i.imgur.com/Bq798St.png",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
@@ -294,7 +294,7 @@ export const sponsors = {
   ],
   silver: [
     {
-      src: "https://i.imgur.com/hf86Zow.png",
+      src: "https://i.imgur.com/oiYVFux.jpg",
       name: "FutureBit",
       site: "https://www.futurebit.io"
     }
