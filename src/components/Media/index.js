@@ -34,13 +34,27 @@ const H1 = styled.h1`
   font-size: 20px;
 `
 
+const SponsorWrapper = styled.div`
+  background: ${fromTheme('lightGrey')};
+  padding: 1rem 0;
+`
+
+const RAV = styled.img`
+  width: 300px;
+`
+
 const Media = () => (
-  <Wrapper>
-    <InfoWrapper>
-      <H1>#LTCSF18</H1>
-      <Counter />
-    </InfoWrapper>
-  </Wrapper>
+  <React.Fragment>
+    <Wrapper>
+      <InfoWrapper>
+        <H1>#LTCSF18</H1>
+        <Counter />
+      </InfoWrapper>
+    </Wrapper>
+    <SponsorWrapper>
+      <RAV src='https://i.imgur.com/PK9wVbD.png'/>
+    </SponsorWrapper>
+  </React.Fragment>
 )
 
 export default Media
