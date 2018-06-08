@@ -120,7 +120,7 @@ const MenuWrapper = styled.div`
 const MenuItem = styled.div`
   margin: 1.5rem;
   cursor: pointer;
-  max-width: 75px;
+  max-width: 56px;
   color: ${fromTheme('grey')};
   ${media.medium`
     font-size: 12px;
@@ -128,8 +128,7 @@ const MenuItem = styled.div`
   `}
   &:hover {
     color: ${fromTheme('black')};
-    /* text-shadow: 1px 0 0; */
-    text-shadow: 1px 0 0 currentColor;
+    text-shadow: 1px 0 0;
   }
 `
 
@@ -163,7 +162,7 @@ class Menu extends Component {
 }
 
 ReactSwipeNavigation.defaultProps = {
-  menu: ['Speakers', 'Day 1', 'Day 2', 'Tickets', 'Traveling', 'Contact', 'Sponsors'],
+  menu: ['Speakers', 'Day 1', 'Day 2', 'Tickets', 'Traveling', 'Sponsors'],
   // thresholds for valid swipe
   minX: 5,
   maxY: 50,
