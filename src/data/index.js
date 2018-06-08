@@ -72,9 +72,9 @@ export const speakers = [
     }
   },
   {
-    name: "Py Patel",
-    info: "Youtuber, Piece Of The Py Show",
-    avatar: "https://i.imgur.com/oaNASWz.jpg",
+    name: "Michael Rodriguez",
+    info: "Zulu Republic",
+    avatar: "https://i.imgur.com/U6YQi21.png",
     social: {
       twitter: ""
     }
@@ -94,7 +94,7 @@ export const day1 = [
     name: "Onsite Registration/Sign-In",
     location: "Lobby Area",
     info: "08:00 - 09:45",
-    avatar: "https://i.imgur.com/SVCpYj5.png",
+    avatar: "https://i.imgur.com/Ju7DpXH.png",
   },
   {
     name: "Welcome: Administrative Notes",
@@ -119,6 +119,12 @@ export const day1 = [
     location: "Main Room",
     info: "12:00 - 13:00",
     avatar: "https://i.imgur.com/sWA59i7.png",
+  },
+  {
+    name: "TBA",
+    location: "Main Room",
+    info: "13:00 - 13:45",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Eric Brown for Aliant Payments",
@@ -182,10 +188,10 @@ export const day2 = [
     name: "Set Up",
     location: "All Rooms",
     info: "06:00 - 09:00",
-    avatar: "https://i.imgur.com/KTSjjCy.jpg",
+    avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
-    name: "Bazaar: Open to the Public",
+    name: "Litecoin Expo",
     location: "Main Room",
     info: "09:00 - 10:00",
     avatar: "https://i.imgur.com/qlZkE8D.png",
@@ -233,10 +239,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/oaNASWz.jpg",
   },
   {
-    name: "Aliant - Eric Brown",
+    name: "Michael Rodriguez - Zulu Republic, Litevault, and Lite.im",
     location: "Baden Room A",
     info: "15:30 - 16:00",
-    avatar: "https://i.imgur.com/lY7AWsh.jpg",
+    avatar: "https://i.imgur.com/U6YQi21.png",
   },
 ]
 
@@ -262,11 +268,23 @@ export const tickets = [
 export const sponsors = {
   platinum: [
     {
-      src: 'https://i.imgur.com/IHiJkU4.jpg',
-      name: 'Reaction Audio Visual',
-      site: 'https://www.reactionav.com/'
+      src: "https://i.imgur.com/IHiJkU4.jpg",
+      name: "Reaction Audio Visual",
+      site: "https://www.reactionav.com"
     },
   ],
-  gold: [],
-  Silver: []
+  gold: [
+    {
+      src: "https://i.imgur.com/Bq798St.png",
+      name: "Zulu Republic",
+      site: "https://www.zulurepublic.io"
+    }
+  ],
+  Silver: [
+    {
+      src: "https://i.imgur.com/hf86Zow.png",
+      name: "FutureBit",
+      site: "https://www.futurebit.io"
+    }
+  ]
 }
