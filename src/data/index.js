@@ -34,7 +34,7 @@ export const speakers = [
   {
     name: "Diego Gutiérrez Zaldívar",
     info: "CEO & Co-founder of RSK Labs",
-    avatar: "https://media.licdn.com/dms/image/C4E03AQEhGCjuKd4DyA/profile-displayphoto-shrink_800_800/0?e=1532563200&v=beta&t=e5TlOdHTakNuRMeWpmI2T0V_pvjIofAnV79z2809Ll8",
+    avatar: "https://i.imgur.com/aSTSyqh.jpg",
     social: {
       twitter: "https://twitter.com/dieguito"
     }
@@ -105,13 +105,19 @@ export const day1 = [
   {
     name: "Keynote: Charlie Lee (Creator)",
     location: "Main Room",
-    info: "10:00 - 11:00",
+    info: "10:00 - 10:45",
     avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
     name: "TBA",
     location: "Main Room",
-    info: "11:00 - 12:00",
+    info: "10:45 - 11:30",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+  },
+  {
+    name: "TBA",
+    location: "Main Room",
+    info: "11:30 - 12:00",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
@@ -121,16 +127,16 @@ export const day1 = [
     avatar: "https://i.imgur.com/sWA59i7.png",
   },
   {
-    name: "TBA",
+    name: "Rootstock (Diego Gutiérrez Zaldívar)",
     location: "Main Room",
-    info: "13:00 - 13:45",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    info: "13:00 - 13:30",
+    avatar: "https://i.imgur.com/aSTSyqh.jpg",
   },
   {
-    name: "Eric Brown for Aliant Payments",
+    name: "TBA",
     location: "Main Room",
-    info: "13:45 - 14:15",
-    avatar: "https://i.imgur.com/lY7AWsh.jpg",
+    info: "13:30 - 14:15",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Break",
@@ -139,10 +145,10 @@ export const day1 = [
     avatar: "https://i.imgur.com/R4YE0I2.png",
   },
   {
-    name: "TBA",
+    name: "Aliant (Eric Brown)",
     location: "Main Room",
     info: "14:30 - 15:00",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
     name: "Xinxi Wang",
@@ -165,7 +171,7 @@ export const day1 = [
   {
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
     location: "Main Room",
-    info: "16:15 - 16:45",
+    info: "16:15 - 17:15",
     avatar: "https://i.imgur.com/PcLLdAJ.jpg",
   },
   {
@@ -198,51 +204,57 @@ export const day2 = [
   },
   {
     name: "Aliant - Eric Brown",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "10:00 - 10:30",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
     name: "Taxation in Cryptocurrency (Alexi Kassabov)",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "10:45 - 11:30",
     avatar: "https://i.imgur.com/Bhlmpng.jpg",
   },
   {
     name: "Litecoin School of Crypto",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "11:45 - 12:15",
     avatar: "https://i.imgur.com/7MWFYKo.jpg",
   },
   {
     name: "TravelbyBit - Current crypto adoption in Austrailia",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "12:30 - 13:15",
     avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
     name: "TBA",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "13:30 - 14:00",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "14:15 - 14:45",
     avatar: "https://i.imgur.com/nNSiLer.jpg",
   },
   {
-    name: "Decentralization (Piece of the Py)",
-    location: "Baden Room A",
+    name: "TBA",
+    location: "Oyster Point",
     info: "15:00 - 15:30",
-    avatar: "https://i.imgur.com/oaNASWz.jpg",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "Michael Rodriguez - Zulu Republic, Litevault, and Lite.im",
     location: "Baden Room A",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
+  },
+  {
+    name: "TBA",
+    location: "Oyster Point",
+    info: "16:30 - 17:00",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
 ]
 
