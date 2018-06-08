@@ -14,17 +14,6 @@ const Header = styled.h1`
 const SponsorWrapper = styled.div`
 `
 
-// const SponsorCard = styled.div`
-//   height: 100px;
-//   width: 100px;
-//   border-radius: 50%;
-//   margin: 0;
-//   background-size: cover;
-//   background-position: center center;
-//   background-image: url(${props => props.logo});
-// `
-
-
 const Sponsors = () => (
   <Wrapper>
     <Header>Sponsors</Header>

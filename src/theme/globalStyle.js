@@ -68,10 +68,7 @@ injectGlobal`
     font-family: 'Open Sans', sans-serif;
     overflow-y: scroll;
   }
-  h1, h3, h5 {
-    font-weight: bold;
-  }
-
+  
   h1 {
     font-size: 31px;
     margin: 10px auto;
