@@ -113,7 +113,7 @@ class ReactSwipeNavigation extends Component {
 
 const MenuWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
 `
 
