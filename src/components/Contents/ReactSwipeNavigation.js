@@ -128,7 +128,7 @@ const MenuItem = styled.div`
   `}
   &:hover {
     color: ${fromTheme('black')};
-    text-shadow: 1px 0 0;
+    font-weight: bold;
   }
 `
 
@@ -139,7 +139,7 @@ class Menu extends Component {
         (this.props.position === i) ?
           <MenuItem
             key={item}
-            style={{ color: 'black', textShadow: '1px 0 0' }}
+            style={{ color: 'black', fontWeight: 'bold' }}
             onClick={this.props.swipe.bind(this.props.father, i)}
           >
             {item}
