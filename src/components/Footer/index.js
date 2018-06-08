@@ -24,9 +24,6 @@ const Footer = () => (
     <a target="_blank" href="mailto:contact@litecoinfoundation.net">
       <P2>contact@litecoinfoundation.net</P2>
     </a>
-    <a target="_blank" href="">
-      <P2>Legal Disclaimer</P2>
-    </a>
     <a target="_blank" href="https://litecoin-foundation.org/privacy-policy/">
       <P2>Privacy Policy</P2>
     </a>

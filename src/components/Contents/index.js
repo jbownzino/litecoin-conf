@@ -9,6 +9,7 @@ import DataCardContainer from './DataCardContainer'
 import TicketInfo from './TicketInfo'
 import Location from './Location'
 import ContactInfo from './ContactInfo'
+import Sponsors from '../Sponsors'
 
 const Wrapper = styled.div`
   margin: 7rem 7rem 0 7rem;
@@ -32,6 +33,7 @@ const Contents = () => (
       <ContentWrapper><TicketInfo /></ContentWrapper>
       <ContentWrapper><Location isMarkerShown /></ContentWrapper>
       <ContentWrapper><ContactInfo /></ContentWrapper>
+      <ContentWrapper><Sponsors /></ContentWrapper>
     </ReactSwipeNavigation>
   </Wrapper>
 )

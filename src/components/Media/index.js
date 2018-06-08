@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Img from 'gatsby-image'
 
 import videoBackground from 'images/video-background.png'
-import videoBackgroundMobile from 'images/video-background-mobile.png'
+import videoBackgroundMobile from 'images/video-background.png'
 import { Button, fromTheme, media } from 'theme/globalStyle'
 import Counter from './Counter'
 
@@ -37,7 +37,7 @@ const H1 = styled.h1`
 const Media = () => (
   <Wrapper>
     <InfoWrapper>
-      <H1>#LTCSF18 Watch Live</H1>
+      <H1>#LTCSF18</H1>
       <Counter />
     </InfoWrapper>
   </Wrapper>

@@ -3,14 +3,12 @@ import Link from 'gatsby-link'
 import TextSummitInfo from 'components/TextSummitInfo'
 import Media from 'components/Media'
 import Contents from 'components/Contents'
-import Sponsors from 'components/Sponsors'
 
 const IndexPage = ({ data }) => (
   <Fragment>
     <TextSummitInfo />
     <Media data={data} />
     <Contents />
-    <Sponsors />
   </Fragment>
 )
 
@@ -28,7 +26,7 @@ export const pageQuery = graphql`
         ...GatsbyImageSharpSizes
       }
     }
-    backgroundMobile: imageSharp(id: { regex: "/video-background-mobile.png/"}) {
+    backgroundMobile: imageSharp(id: { regex: "/video-background.png/"}) {
       sizes(maxWidth: 630) {
         ...GatsbyImageSharpSizes
       }
