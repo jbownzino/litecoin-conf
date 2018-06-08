@@ -292,7 +292,7 @@ export const sponsors = {
       site: "https://www.zulurepublic.io"
     }
   ],
-  Silver: [
+  silver: [
     {
       src: "https://i.imgur.com/hf86Zow.png",
       name: "FutureBit",

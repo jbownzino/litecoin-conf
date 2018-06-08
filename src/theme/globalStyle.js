@@ -20,14 +20,14 @@ export const media = {
 
 export const sponsorLogoType = {
   platinum: '300px',
-  gold: '50px',
-  silver: '30px',
+  gold: '150px',
+  silver: '100px',
 }
 
 export const sponsorLetterType = {
   platinum: '25px',
-  gold: '10px',
-  silver: '15px',
+  gold: '15px',
+  silver: '10px',
 }
 
 export const theme = {
