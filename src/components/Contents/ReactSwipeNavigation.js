@@ -114,7 +114,7 @@ class ReactSwipeNavigation extends Component {
 const MenuWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
-  width: 100%;
+  width: 50%;
   padding-left: 19vw;
   ${media.handheld`
     padding-left: 6vw;
