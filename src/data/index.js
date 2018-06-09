@@ -161,7 +161,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/2CmlgfU.png",
   },
   {
-    name: "Aliant Eric Brown",
+    name: "The Crypto Currency Payments Industry: Eric Brown",
     location: "Main Room",
     info: "14:30 - 15:00",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
