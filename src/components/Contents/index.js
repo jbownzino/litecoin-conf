@@ -3,13 +3,13 @@ import styled from 'styled-components'
 import ReactSwipe from 'react-swipe'
 
 import { media } from 'theme/globalStyle'
-import { speakers, day1, day2 } from 'data'
+import { speakers, day1, day2, sponsors } from 'data'
 import ReactSwipeNavigation from './ReactSwipeNavigation';
 import DataCardContainer from './DataCardContainer'
 import TicketInfo from './TicketInfo'
 import Location from './Location'
 import ContactInfo from './ContactInfo'
-import Sponsors from '../Sponsors'
+import Sponsors from './Sponsors'
 
 const Wrapper = styled.div`
   margin: 7rem 7rem 0 7rem;
@@ -32,7 +32,7 @@ const Contents = () => (
       <ContentWrapper><DataCardContainer data={day2}/></ContentWrapper>
       <ContentWrapper><TicketInfo /></ContentWrapper>
       <ContentWrapper><Location isMarkerShown /></ContentWrapper>
-      <ContentWrapper><Sponsors /></ContentWrapper>
+      <ContentWrapper><Sponsors data={sponsors}/></ContentWrapper>
     </ReactSwipeNavigation>
   </Wrapper>
 )

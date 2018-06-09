@@ -69,7 +69,7 @@ class DataCard extends Component {
   }
 
   render() {
-    const { name, location, info, avatar, social } = this.props
+    const { name, location, info, avatar, social, site, type } = this.props
     const { loaded } = this.state
     return(
       <Wrapper>
@@ -80,6 +80,13 @@ class DataCard extends Component {
         <InfoWrapper>
           {name && <H5>{name}</H5>}
           {location && <H5>{location}</H5>}
+          {site !== undefined ?
+            <div>
+              <H5>{type}</H5>
+              <P>{site}</P>
+            </div>:
+            ''
+          }
           <P>{info}</P>
           {(social && social.twitter.length > 0) &&
             <SocialLink href={social.twitter} target='_blank'>

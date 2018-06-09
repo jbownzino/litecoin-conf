@@ -296,23 +296,26 @@ export const tickets = [
 export const sponsors = {
   platinum: [
     {
-      src: "https://i.imgur.com/IHiJkU4.jpg",
+      avatar: "https://i.imgur.com/IHiJkU4.jpg",
       name: "Reaction Audio Visual",
-      site: "https://www.reactionav.com"
+      site: "https://www.reactionav.com",
+      type: "Platinum"
     },
   ],
   gold: [
     {
-      src: "https://i.imgur.com/Bq798St.png",
+      avatar: "https://i.imgur.com/Bq798St.png",
       name: "Zulu Republic",
-      site: "https://www.zulurepublic.io"
+      site: "https://www.zulurepublic.io",
+      type: "Gold"
     }
   ],
   silver: [
     {
-      src: "https://i.imgur.com/oiYVFux.jpg",
+      avatar: "https://i.imgur.com/oiYVFux.jpg",
       name: "FutureBit",
-      site: "https://www.futurebit.io"
+      site: "https://www.futurebit.io",
+      type: "Silver"
     }
   ]
 }
