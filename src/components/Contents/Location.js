@@ -22,7 +22,6 @@ const TextWrapper = styled.div`
 `
 
 const MapWrapper = styled.div`
-  max-width: 1300px;
   height: 70vh;
   ${media.medium`
     height: 50vh;
