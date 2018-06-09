@@ -24,11 +24,11 @@ export const speakers = [
     }
   },
   {
-    name: "Eric Brown",
-    info: "Aliant Payments CEO",
-    avatar: "https://i.imgur.com/lY7AWsh.jpg",
+    name: "Elizabeth Stark",
+    info: "CEO & Co-founder Lightning Labs",
+    avatar: "https://pbs.twimg.com/profile_images/1974819036/stark.4_400x400.jpg",
     social: {
-      twitter: "https://twitter.com/ericbrown_stl"
+      twitter: "https://twitter.com/starkness"
     }
   },
   {
@@ -40,11 +40,19 @@ export const speakers = [
     }
   },
   {
+    name: "Eric Brown",
+    info: "Aliant Payments CEO",
+    avatar: "https://i.imgur.com/lY7AWsh.jpg",
+    social: {
+      twitter: "https://twitter.com/ericbrown_stl"
+    }
+  },
+  {
     name: "Caleb Yeoh",
     info: "Travel by Bit CEO",
     avatar: "https://i.imgur.com/J76oyGB.png",
     social: {
-      twitter: ""
+      twitter: "https://twitter.com/TravelbyBit"
     }
   },
   {
@@ -68,7 +76,7 @@ export const speakers = [
     info: "VP of Nationwide Merchant Solutions",
     avatar: "https://i.imgur.com/nNSiLer.jpg",
     social: {
-      twitter: ""
+      twitter: "https://twitter.com/jonnylitecoin"
     }
   },
   {
@@ -77,6 +85,14 @@ export const speakers = [
     avatar: "https://i.imgur.com/U6YQi21.png",
     social: {
       twitter: ""
+    }
+  },
+  {
+    name: "Shamir Allibhai",
+    info: "Zulu Republic",
+    avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
+    social: {
+      twitter: "https://twitter.com/theshamir"
     }
   },
   {
@@ -103,16 +119,16 @@ export const day1 = [
     avatar: "https://i.imgur.com/oN1Btva.png",
   },
   {
-    name: "Keynote: Charlie Lee (Creator)",
+    name: "Keynote: Charlie Lee",
     location: "Main Room",
     info: "10:00 - 10:45",
     avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
-    name: "Abra (Bill Barhydt)",
+    name: "TBA",
     location: "Main Room",
     info: "10:45 - 11:30",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "",
   },
   {
     name: "TBA",
@@ -121,19 +137,19 @@ export const day1 = [
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
-    name: "LUNCH",
+    name: "Lunch",
     location: "Main Room",
     info: "12:00 - 13:00",
     avatar: "https://i.imgur.com/JDNRaai.png",
   },
   {
-    name: "Rootstock (Diego Gutiérrez Zaldívar)",
+    name: "Rootstock & Smart Contracts: Diego Gutiérrez Zaldívar",
     location: "Main Room",
     info: "13:00 - 13:30",
     avatar: "https://i.imgur.com/aSTSyqh.jpg",
   },
   {
-    name: "Lightning Labs (Elizabeth Stark)",
+    name: "Lightning & Layer 2: Elizabeth Stark",
     location: "Main Room",
     info: "13:30 - 14:15",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
@@ -145,7 +161,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/2CmlgfU.png",
   },
   {
-    name: "Aliant (Eric Brown)",
+    name: "The Crypto Currency Payments Industry: Eric Brown",
     location: "Main Room",
     info: "14:30 - 15:00",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
@@ -157,13 +173,13 @@ export const day1 = [
     avatar: "https://i.imgur.com/uVMkscR.png",
   },
   {
-    name: "Franklyn Richards",
+    name: "Designing Decentralised Finance: Franklyn Richards",
     location: "Main Room",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/o7AvG0x.jpg",
   },
   {
-    name: "Break - time to set up for fireside chat with LF Directors",
+    name: "Break - Roundtable Set up",
     location: "Main Room",
     info: "16:00 - 16:15",
     avatar: "https://i.imgur.com/2CmlgfU.png",
@@ -175,9 +191,9 @@ export const day1 = [
     avatar: "https://i.imgur.com/PcLLdAJ.jpg",
   },
   {
-    name: "TBA",
+    name: "Break - Icebreaker Set up",
     location: "Main Room",
-    info: "16:45 - 18:15",
+    info: "17:15 - 18:15",
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
@@ -227,10 +243,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
-    name: "Zulu Republic (Who are we?)",
+    name: "Zulu Republic - Social Impacts with Blockchain",
     location: "Oyster Point",
     info: "13:30 - 14:00",
-    avatar: "https://i.imgur.com/Bq798St.png",
+    avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
   },
   {
     name: "Jon Moore - Payment Adoption on Existing Payment Environment",
@@ -245,7 +261,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
-    name: "Zulu Republic (Litevault)",
+    name: "Zulu Republic - Building a User Centric Litecoin",
     location: "Baden Room A",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
@@ -263,7 +279,7 @@ export const tickets = [
     title: "Summit Day 1 + 2",
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
-    content: ["Access to both days of the summit", "Free Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to both days of the summit", "Warm Breakfast & Lunch with Drinks + Snack (Day 1 only)", "Access to the Icebreaker", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
     price: 490,
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
@@ -271,7 +287,7 @@ export const tickets = [
     title: "Summit Day 2",
     src: "https://i.imgur.com/Ydue1uN.jpg",
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
-    content: ["Access to summit on 15th Sep Only", "Free Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to summit on 15th Sep Only", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
     price: 49,
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/"
   }
