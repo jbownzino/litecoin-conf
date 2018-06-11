@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   justify-content: flex-start;
   max-width: 1300px;
-  margin-left: 19vw;
+  margin-left: 18vw;
   ${media.medium`
     margin-left: 1rem;
   `}

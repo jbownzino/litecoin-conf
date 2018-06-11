@@ -308,6 +308,12 @@ export const sponsors = {
       name: "Zulu Republic",
       site: "https://www.zulurepublic.io",
       type: "Gold"
+    },
+    {
+      logo: "https://i.imgur.com/bm4YqjW.jpg",
+      name: "LiteVault",
+      site: "https://www.litevault.net",
+      type: "Gold"
     }
   ],
   silver: [

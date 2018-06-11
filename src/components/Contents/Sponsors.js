@@ -19,7 +19,7 @@ const ContentWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: flex-start;
   max-width: 1300px;
-  margin-left: 20vw;
+  margin-left: 18vw;
   flex-direction: row;
   ${media.medium`
       margin-left: 0;
@@ -27,7 +27,7 @@ const ContentWrapper = styled.div`
 `
 
 const TextWrapper = styled.div`
-  margin-left: 20vw;
+  margin-left: 18vw;
   margin-bottom: 2rem;
   ${media.medium`
     margin-left: 0;

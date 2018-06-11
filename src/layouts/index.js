@@ -7,8 +7,6 @@ import { theme } from 'theme/globalStyle'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
-import logo from 'images/litecoin-logo.svg'
-
 const Wrapper = styled.div`
   margin: '0 auto';
   max-width: 960;
@@ -30,7 +28,7 @@ const Layout = ({ children, data }) => (
           { name: 'keywords', content: 'litecoin, summit, 2018' },
         ]}
       >
-        <link rel="icon" type="image/png" href={logo} />
+        <link rel="icon" type="image/png" href='https://i.imgur.com/3mwcu9B.png' />
       </Helmet>
       <Header />
       <Wrapper>{children()}</Wrapper>
