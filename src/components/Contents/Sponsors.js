@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   ${media.medium`
-      margin-left: 2rem;
+      margin-left: 1rem;
   `};
 `
 
@@ -22,15 +22,17 @@ const ContentWrapper = styled.div`
   margin-left: 20vw;
   flex-direction: row;
   ${media.medium`
-      margin-left: 2rem;
+      margin-left: 0;
   `};
 `
 
 const TextWrapper = styled.div`
   margin-left: 20vw;
+  margin-bottom: 2rem;
   ${media.medium`
-    margin-left: 2rem;
-  `} margin-bottom: 2rem;
+    margin-left: 0;
+    margin-right: 1rem;
+  `}
 `
 
 const Link = styled.a`

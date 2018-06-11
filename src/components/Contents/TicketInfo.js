@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Button, fromTheme } from 'theme/globalStyle'
+import { Button, fromTheme, media } from 'theme/globalStyle'
 import { tickets } from 'data'
 
 const Wrapper = styled.div`
@@ -19,10 +19,13 @@ const ContentWrapper = styled.div`
 
 const TicketWrapper = styled.div`
   margin: 15px;
-  min-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  ${media.medium`
+    width: 230px;
+  `}
+
 `
 
 const InfoWrapper = styled.div`

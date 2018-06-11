@@ -7,7 +7,7 @@ const Wrapper = styled.footer`
   font-size: 11px;
   margin: 0 24.4vw;
   ${media.handheld`
-    margin: 0 100px;
+    margin: 0 20px;
   `}
 `
 
