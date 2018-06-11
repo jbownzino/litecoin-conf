@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   ${media.medium`
       margin-left: 2rem;
-  `}
+  `};
 `
 
 const ContentWrapper = styled.div`
@@ -23,15 +23,14 @@ const ContentWrapper = styled.div`
   flex-direction: row;
   ${media.medium`
       margin-left: 2rem;
-  `}
+  `};
 `
 
 const TextWrapper = styled.div`
   margin-left: 20vw;
   ${media.medium`
     margin-left: 2rem;
-  `}
-  margin-bottom: 2rem;
+  `} margin-bottom: 2rem;
 `
 
 const Link = styled.a`
@@ -41,13 +40,27 @@ const Link = styled.a`
 
 const Sponsors = ({ data }) => (
   <Wrapper>
-    <TextWrapper><p>For more information on sponsorship, please email us at <Link href={'mailto:sponsorships@litecoinfoundation.net'}> sponsorships@litecoinfoundation.net</Link></p></TextWrapper>
-    <ContentWrapper>{data &&
-      data.platinum.map((each, i) => <DataCard key={i} {...each} />)}</ContentWrapper>
-    <ContentWrapper>{data &&
-      data.gold.map((each, i) => <DataCard key={i} {...each} />)}</ContentWrapper>
-    <ContentWrapper>{data &&
-      data.silver.map((each, i) => <DataCard key={i} {...each} />)}</ContentWrapper>
+    <TextWrapper>
+      <p>
+        For more information on sponsorship, please email us at{' '}
+        <Link href={'mailto:sponsorships@litecoinfoundation.net'}>
+          {' '}
+          sponsorships@litecoinfoundation.net
+        </Link>
+      </p>
+    </TextWrapper>
+    <ContentWrapper>
+      {data && data.platinum.map((each, i) => <DataCard key={i} {...each} />)}
+    </ContentWrapper>
+    <ContentWrapper>
+      {data && data.gold.map((each, i) => <DataCard key={i} {...each} />)}
+    </ContentWrapper>
+    <ContentWrapper>
+      {data && data.silver.map((each, i) => <DataCard key={i} {...each} />)}
+    </ContentWrapper>
+    <ContentWrapper>
+      {data && data.bronze.map((each, i) => <DataCard key={i} {...each} />)}
+    </ContentWrapper>
   </Wrapper>
 )
 

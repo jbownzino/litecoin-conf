@@ -322,7 +322,7 @@ export const sponsors = {
     {
       avatar: "https://i.imgur.com/mdfgrsh.png",
       name: "Crypto Greetings",
-      site: "",
+      site: "https://www.cryptogreetings.com",
       type: "Bronze"
     }
   ]
