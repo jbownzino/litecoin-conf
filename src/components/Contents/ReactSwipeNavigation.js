@@ -115,7 +115,7 @@ const MenuWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   width: 50%;
-  padding-left: 17vw;
+  padding-left: 17.5vw;
   ${media.medium`
     padding-left: 2vw;
     flex-wrap: wrap;

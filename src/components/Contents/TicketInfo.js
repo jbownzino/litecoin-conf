@@ -9,12 +9,27 @@ const Wrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-left: 18vw;
+  ${media.medium`
+      margin-left: 0;
+  `};
+`
+
+const TextWrapper = styled.div`
+  text-align: left;
+  margin-left: 15px;
+  ${media.medium`
+      margin-left: 0;
+      text-align: center;
+  `};
 `
 
 const ContentWrapper = styled.div`
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  ${media.medium`
+      justify-content: center;
+  `};
 `
 
 const TicketWrapper = styled.div`
@@ -24,8 +39,7 @@ const TicketWrapper = styled.div`
   align-items: flex-start;
   ${media.medium`
     width: 230px;
-  `}
-
+  `};
 `
 
 const InfoWrapper = styled.div`
@@ -63,25 +77,23 @@ const BookButton = Button.extend`
 
 const TicketInfo = () => (
   <Wrapper>
-    <h3>Pay with Litecoin or USD via PayPal</h3>
+    <TextWrapper>
+      <h3>Pay with Litecoin or USD via PayPal</h3>
+    </TextWrapper>
     <ContentWrapper>
-    {tickets &&
-      tickets.map(({ title, content, src, link, price }, i) => (
-        <TicketWrapper key={i}>  
-          {src.length === 0 ?
-            <EmptyImg/> :
-            <Img src={src} />
-          }
-          <InfoWrapper>
-            <h5>{title}</h5>
-            {content.map((each, j) => <P key={j}>{each}</P>)}
-          </InfoWrapper>
-          <a target='_blank' href={link}>
-            <BookButton>Book Ticket | ${price}</BookButton>
-          </a>
-        </TicketWrapper>
-      ))
-    }
+      {tickets &&
+        tickets.map(({ title, content, src, link, price }, i) => (
+          <TicketWrapper key={i}>
+            {src.length === 0 ? <EmptyImg /> : <Img src={src} />}
+            <InfoWrapper>
+              <h5>{title}</h5>
+              {content.map((each, j) => <P key={j}>{each}</P>)}
+            </InfoWrapper>
+            <a target="_blank" href={link}>
+              <BookButton>Book Ticket | ${price}</BookButton>
+            </a>
+          </TicketWrapper>
+        ))}
     </ContentWrapper>
   </Wrapper>
 )
