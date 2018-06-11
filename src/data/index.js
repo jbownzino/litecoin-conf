@@ -312,7 +312,7 @@ export const sponsors = {
   ],
   silver: [
     {
-      logo: "https://i.imgur.com/oiYVFux.jpg",
+      logo: "https://i.imgur.com/Tofa8PE.jpg",
       name: "FutureBit",
       site: "https://www.futurebit.io",
       type: "Silver"
@@ -320,7 +320,7 @@ export const sponsors = {
   ],
   bronze: [
     {
-      logo: "https://i.imgur.com/mdfgrsh.png",
+      logo: "https://i.imgur.com/fI3vZId.jpg",
       name: "Crypto Greetings",
       site: "https://www.cryptogreetings.com",
       type: "Bronze"

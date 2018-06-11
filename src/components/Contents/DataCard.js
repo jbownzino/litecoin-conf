@@ -68,16 +68,15 @@ const DataCard = ({ name, location, info, avatar, logo, social, site, type }) =>
       <Avatar img={avatar} />
     }
     {logo &&
-      <Logo img={logo} />
+      <a target='_blank' href={site}>
+        <Avatar img={logo} />
+      </a>
     }
     <InfoWrapper>
       {name && <H5>{name}</H5>}
       {location && <H5>{location}</H5>}
-      {site &&
-        <div>
-          <H5>{type}</H5>
-          <P>{site}</P>
-        </div>
+      {type &&
+        <H5>{type}</H5>
       }
       <P>{info}</P>
       {(social && social.twitter.length > 0) &&
