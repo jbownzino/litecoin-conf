@@ -26,7 +26,7 @@ export const speakers = [
   {
     name: "Elizabeth Stark",
     info: "CEO & Co-founder Lightning Labs",
-    avatar: "https://pbs.twimg.com/profile_images/1974819036/stark.4_400x400.jpg",
+    avatar: "https://i.imgur.com/wnyYJVl.png",
     social: {
       twitter: "https://twitter.com/starkness"
     }
@@ -152,7 +152,7 @@ export const day1 = [
     name: "Lightning & Layer 2: Elizabeth Stark",
     location: "Main Room",
     info: "13:30 - 14:15",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://i.imgur.com/wnyYJVl.png",
   },
   {
     name: "Break",
@@ -296,7 +296,7 @@ export const tickets = [
 export const sponsors = {
   platinum: [
     {
-      avatar: "https://i.imgur.com/IHiJkU4.jpg",
+      logo: "https://i.imgur.com/IHiJkU4.jpg",
       name: "Reaction Audio Visual",
       site: "https://www.reactionav.com",
       type: "Platinum"
@@ -304,7 +304,7 @@ export const sponsors = {
   ],
   gold: [
     {
-      avatar: "https://i.imgur.com/Bq798St.png",
+      logo: "https://i.imgur.com/Bq798St.png",
       name: "Zulu Republic",
       site: "https://www.zulurepublic.io",
       type: "Gold"
@@ -312,7 +312,7 @@ export const sponsors = {
   ],
   silver: [
     {
-      avatar: "https://i.imgur.com/oiYVFux.jpg",
+      logo: "https://i.imgur.com/oiYVFux.jpg",
       name: "FutureBit",
       site: "https://www.futurebit.io",
       type: "Silver"
@@ -320,7 +320,7 @@ export const sponsors = {
   ],
   bronze: [
     {
-      avatar: "https://i.imgur.com/mdfgrsh.png",
+      logo: "https://i.imgur.com/mdfgrsh.png",
       name: "Crypto Greetings",
       site: "https://www.cryptogreetings.com",
       type: "Bronze"
