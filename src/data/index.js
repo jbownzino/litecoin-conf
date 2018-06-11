@@ -128,7 +128,7 @@ export const day1 = [
     name: "TBA",
     location: "Main Room",
     info: "10:45 - 11:30",
-    avatar: "",
+    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
   },
   {
     name: "TBA",
@@ -194,7 +194,7 @@ export const day1 = [
     name: "Break - Icebreaker Set up",
     location: "Main Room",
     info: "17:15 - 18:15",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
     name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
@@ -316,6 +316,14 @@ export const sponsors = {
       name: "FutureBit",
       site: "https://www.futurebit.io",
       type: "Silver"
+    }
+  ],
+  bronze: [
+    {
+      avatar: "https://i.imgur.com/mdfgrsh.png",
+      name: "Crypto Greetings",
+      site: "",
+      type: "Bronze"
     }
   ]
 }
