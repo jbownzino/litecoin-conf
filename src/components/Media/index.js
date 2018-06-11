@@ -32,7 +32,7 @@ const H1 = styled.h1`
 
 const SponsorWrapper = styled.div`
   background: ${fromTheme('lightGrey')};
-  padding: 1rem 0;
+  padding: 1.2rem 0;
 `
 
 const RAV = styled.img`
