@@ -283,10 +283,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/U6YQi21.png",
   },
   {
-    name: "TBA",
+    name: "The importance of non-custodial wallets: ABRA",
     location: "Oyster Point",
     info: "16:30 - 17:00",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://pbs.twimg.com/profile_images/975821418301554688/ss72MvSg_400x400.jpg",
   },
 ]
 
