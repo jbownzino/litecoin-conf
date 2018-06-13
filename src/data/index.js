@@ -48,6 +48,14 @@ export const speakers = [
     }
   },
   {
+    name: "Bill Barhydt",
+    info: "CEO & Founder ABRA",
+    avatar: "https://pbs.twimg.com/profile_images/848707856605917184/CJAVu7HY_400x400.jpg",
+    social: {
+      twitter: "https://twitter.com/billbarhydt"
+    }
+  },
+  {
     name: "Eric Brown",
     info: "Aliant Payments CEO",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
@@ -133,10 +141,10 @@ export const day1 = [
     avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
-    name: "TBA",
+    name: "Banking With Crypto :Bill Barhydt",
     location: "Main Room",
     info: "10:45 - 11:30",
-    avatar: "",
+    avatar: "https://pbs.twimg.com/profile_images/848707856605917184/CJAVu7HY_400x400.jpg",
   },
   {
     name: "TBA",
