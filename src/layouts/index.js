@@ -28,12 +28,10 @@ const Layout = ({ children, data }) => (
           { name: 'keywords', content: 'litecoin, summit, 2018' },
         ]}
       >
-       <link rel='icon' type='image/png' href='https://i.imgur.com/eR0VQo1.png' /> 
+        <link rel="icon" type="image/png" href='https://i.imgur.com/3mwcu9B.png' />
       </Helmet>
       <Header />
-      <Wrapper>
-        {children()}
-      </Wrapper>
+      <Wrapper>{children()}</Wrapper>
       <Footer />
     </AppWrapper>
   </ThemeProvider>

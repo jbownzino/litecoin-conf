@@ -115,16 +115,18 @@ const MenuWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   width: 50%;
-  padding-left: 19vw;
-  ${media.handheld`
-    padding-left: 6vw;
+  padding-left: 17.5vw;
+  ${media.medium`
+    padding-left: 2vw;
+    flex-wrap: wrap;
+    width: 100%;
   `}
 `
 
 const MenuItem = styled.div`
   margin: 1.5rem;
   cursor: pointer;
-  max-width: 56px;
+  min-width: 44px;
   color: ${fromTheme('grey')};
   ${media.medium`
     font-size: 12px;

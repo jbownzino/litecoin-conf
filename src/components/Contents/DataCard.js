@@ -22,12 +22,13 @@ const Avatar = styled.div`
   background-image: url(${props => props.img});
 `
 
-const EmptyAvatar = styled.div`
-  min-height: 100px;
-  min-width: 100px;
-  background: ${fromTheme('lightGrey')};
-  border-radius: 50%;
+const Logo = styled.div`
+  height: 100%;
+  width: 100px;
   margin: 0;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(${props => props.img});
 `
 
 const InfoWrapper = styled.div`
@@ -61,35 +62,31 @@ const SocialLogo = styled.img`
   width: 30px;
 `
 
-class DataCard extends Component {
-  state = { loaded: false }
+const DataCard = ({ name, location, info, avatar, logo, social, site, type }) => (
+  <Wrapper>
+    {avatar &&
+      <Avatar img={avatar} />
+    }
+    {logo &&
+      <a target='_blank' href={site}>
+        <Avatar img={logo} />
+      </a>
+    }
+    <InfoWrapper>
+      {name && <H5>{name}</H5>}
+      {location && <H5>{location}</H5>}
+      {type &&
+        <H5>{type}</H5>
+      }
+      <P>{info}</P>
+      {(social && social.twitter.length > 0) &&
+        <SocialLink href={social.twitter} target='_blank'>
+          <SocialLogo src={twitterLogo}/>
+        </SocialLink>
+      }
+    </InfoWrapper>
+  </Wrapper>
 
-  onLoad = () => {
-    this.setState(() => ({ loaded: true }))
-  }
-
-  render() {
-    const { name, location, info, avatar, social } = this.props
-    const { loaded } = this.state
-    return(
-      <Wrapper>
-        {avatar.length === 0 ?
-          <EmptyAvatar/> :
-          <Avatar img={avatar} />
-        }
-        <InfoWrapper>
-          {name && <H5>{name}</H5>}
-          {location && <H5>{location}</H5>}
-          <P>{info}</P>
-          {(social && social.twitter.length > 0) &&
-            <SocialLink href={social.twitter} target='_blank'>
-              <SocialLogo src={twitterLogo}/>
-            </SocialLink>
-          }
-        </InfoWrapper>
-      </Wrapper>
-    )
-  }
-}
+)
 
 export default DataCard

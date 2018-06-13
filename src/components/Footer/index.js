@@ -5,9 +5,9 @@ import { fromTheme, media } from 'theme/globalStyle'
 
 const Wrapper = styled.footer`
   font-size: 11px;
-  margin: 0 24vw;
-  ${media.handheld`
-    margin: 0 100px;
+  margin: 0 24.4vw;
+  ${media.medium`
+    margin: 0 20px;
   `}
 `
 
