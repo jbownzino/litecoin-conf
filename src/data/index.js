@@ -40,6 +40,14 @@ export const speakers = [
     }
   },
   {
+    name: "Elaine Ou",
+    info: "Blockchain Engineer & Bloomberg Columnist",
+    avatar: "https://pbs.twimg.com/profile_images/3728968263/1723d0ea3304a367f1156c47af7ed488_400x400.jpeg",
+    social: {
+      twitter: "https://twitter.com/eiaine"
+    }
+  },
+  {
     name: "Eric Brown",
     info: "Aliant Payments CEO",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
@@ -213,55 +221,55 @@ export const day2 = [
     avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
-    name: "Litecoin Expo",
+    name: "Litecoin Expo Open All Day",
     location: "Main Room",
-    info: "09:00 - 10:00",
+    info: "09:00 - 17:00",
     avatar: "https://i.imgur.com/RsUC1qg.png",
   },
   {
-    name: "Aliant - Eric Brown",
+    name: "Eric Brown",
     location: "Oyster Point",
     info: "10:00 - 10:30",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
   },
   {
-    name: "Taxation in Cryptocurrency (Alexey Kassabov)",
+    name: "Taxation & Cryptocurrency: Alexey Kassabov",
     location: "Oyster Point",
     info: "10:45 - 11:30",
     avatar: "https://i.imgur.com/Bhlmpng.jpg",
   },
   {
-    name: "Litecoin School of Crypto",
+    name: "The Litecoin School of Crypto: ECurrencyHodler",
     location: "Oyster Point",
     info: "11:45 - 12:15",
     avatar: "https://i.imgur.com/2CakPdG.png",
   },
   {
-    name: "TravelbyBit - Current crypto adoption in Austrailia",
+    name: "Crypto Adoption in Austrailia: Caleb Yeoh",
     location: "Oyster Point",
     info: "12:30 - 13:15",
     avatar: "https://i.imgur.com/J76oyGB.png",
   },
   {
-    name: "Zulu Republic - Social Impacts with Blockchain",
+    name: "Zulu Republic, Social Impacts with Blockchain: Shamir Allibhai",
     location: "Oyster Point",
     info: "13:30 - 14:00",
     avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
   },
   {
-    name: "Jon Moore - Payment Adoption on Existing Payment Environment",
+    name: "Payment Adoption in Tradiotnal Environments: Jon Moore",
     location: "Oyster Point",
     info: "14:15 - 14:45",
     avatar: "https://i.imgur.com/nNSiLer.jpg",
   },
   {
-    name: "TBA",
+    name: "The Lightning Network: Elaine Ou",
     location: "Oyster Point",
     info: "15:00 - 15:30",
-    avatar: "https://i.imgur.com/BiGqpyJ.jpg",
+    avatar: "https://pbs.twimg.com/profile_images/3728968263/1723d0ea3304a367f1156c47af7ed488_400x400.jpeg",
   },
   {
-    name: "Zulu Republic - Building a User Centric Litecoin",
+    name: "Zulu Republic, Building a User Centric Litecoin: Michael Rodriguez",
     location: "Baden Room A",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
@@ -279,7 +287,7 @@ export const tickets = [
     title: "Summit Day 1 + 2",
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
-    content: ["Access to both days of the summit", "Warm Breakfast & Lunch with Drinks + Snack (Day 1 only)", "Access to the Icebreaker", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to both days of the summit", "Breakfast, Lunch, Drinks & Snack Inc. (Day 1 only)", "Access to the Icebreaker", "Free Ticket & Lanyard on arrival", "*Non Refundable"],
     price: 490,
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
