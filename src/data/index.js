@@ -278,7 +278,7 @@ export const day2 = [
   },
   {
     name: "Zulu Republic, Building a User Centric Litecoin: Michael Rodriguez",
-    location: "Baden Room A",
+    location: "Oyster Point",
     info: "15:30 - 16:00",
     avatar: "https://i.imgur.com/U6YQi21.png",
   },
@@ -329,6 +329,12 @@ export const sponsors = {
       logo: "https://i.imgur.com/bm4YqjW.jpg",
       name: "LiteVault",
       site: "https://www.litevault.net",
+      type: "Gold"
+    },
+    {
+      logo: "https://i.imgur.com/az84BHR.jpg",
+      name: "Coingate",
+      site: "https://coingate.com",
       type: "Gold"
     }
   ],
