@@ -15,11 +15,22 @@ const Wrapper = styled.div`
   `}
 `
 
-const DataCardContainer = ({ data }) => (
-  <Wrapper>
-    {data &&
-      data.map((each, i) => <DataCard key={i} {...each} />)}
-  </Wrapper>
+const H5 = styled.h5`
+  width: 60vw;
+  ${media.medium`
+    width: 90vw;
+  `}
+`
+
+const DataCardContainer = ({ data, text }) => (
+  <React.Fragment>
+    <Wrapper>
+      {text &&
+      <H5>{text}</H5>}
+      {data &&
+        data.map((each, i) => <DataCard key={i} {...each} />)}
+    </Wrapper>
+  </React.Fragment>
 )
 
 export default DataCardContainer
