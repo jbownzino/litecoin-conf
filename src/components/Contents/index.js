@@ -23,7 +23,7 @@ const ContentWrapper = styled.div`
 `
 
 const day1Text = `Day 1 will be lecture based with the Grand Ballroom set up theater style.`,
-      day2Text = `Day 2 will be composed of a Litecoin Expo in the Grand Ballroom with over 50 businesses for ticket holders to visit and #paywithlitecoin. There will also be speakers giving presentations at the Oyster Point throughout the day.`
+      day2Text = `Day 2 will be composed of a Litecoin Expo in the Grand Ballroom with over 50 businesses manning booths. There will also be speakers giving presentations at the Oyster Point throughout the day.`
 
 
 const Contents = () => (
