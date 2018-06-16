@@ -344,6 +344,12 @@ export const sponsors = {
       name: "FutureBit",
       site: "https://www.futurebit.io",
       type: "Silver"
+    },
+    {
+      logo: "https://i.imgur.com/S0V0dEX.jpg",
+      name: "CheapAir",
+      site: "https://www.cheapair.com",
+      type: "Silver"
     }
   ],
   bronze: [
