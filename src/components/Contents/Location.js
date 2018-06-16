@@ -106,7 +106,9 @@ const LocationContainer = () => (
       <TextWrapper>
         <P>If you’re flying into San Francisco, check out our Exclusive Flight Partner CheapAir.com</P>
         <P>Make sure to use the discount code: LITECOINSUMMIT and #PayWithLitecoin!</P>
-        <SponsorButton>Go to CheapAir.com</SponsorButton>
+        <a target='_blank' href='https://www.cheapair.com/'>
+          <SponsorButton>Go to CheapAir.com</SponsorButton>
+        </a>
       </TextWrapper>
     </Wrapper>
     <MapContainer isMarkerShown />
