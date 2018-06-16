@@ -72,7 +72,7 @@ const Logo = styled.div`
 
 const MapContainer = compose(
   withProps({
-    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=AIzaSyARfanpqQgbjkIWsbpg2DgpN-Lo_-3MO0s&v=3.exp&libraries=geometry,drawing,places`,
+    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=AIzaSyC06yTC8jPAFjsBWZlTdHEw_aXmA9qLItU&v=3.exp&libraries=geometry,drawing,places`,
     loadingElement: <div style={{ height: `70vh` }} />,
     containerElement: <MapWrapper/>,
     mapElement: <div id='c' style={{ height: `70vh` }} />,
