@@ -41,7 +41,8 @@ export const theme = {
   white: '#FFFFFF',
   black: '#000000',
   grey: '#C0C0C0',
-  lightGrey: '#EEEEEE'
+  lightGrey: '#EEEEEE',
+  blue: '#174FA4'
 }
 
 export const Button = styled.button`
@@ -68,7 +69,7 @@ injectGlobal`
     font-family: 'Open Sans', sans-serif;
     overflow-y: scroll;
   }
-  
+
   h1 {
     font-size: 31px;
     margin: 10px auto;
