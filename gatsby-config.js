@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: '/litecoinsummit.org',
   siteMetadata: {
     title: 'Litecoin Summit 2018',
   },
