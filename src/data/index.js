@@ -141,7 +141,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/C4yTDeP.png",
   },
   {
-    name: "Banking With Crypto :Bill Barhydt",
+    name: "Banking With Crypto: Bill Barhydt",
     location: "Main Room",
     info: "10:45 - 11:30",
     avatar: "https://pbs.twimg.com/profile_images/848707856605917184/CJAVu7HY_400x400.jpg",
