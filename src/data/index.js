@@ -253,7 +253,7 @@ export const day2 = [
     avatar: "https://i.imgur.com/2CakPdG.png",
   },
   {
-    name: "Crypto Adoption in Austrailia: Caleb Yeoh",
+    name: "Crypto Adoption in Australia: Caleb Yeoh",
     location: "Oyster Point",
     info: "12:30 - 13:15",
     avatar: "https://i.imgur.com/J76oyGB.png",
