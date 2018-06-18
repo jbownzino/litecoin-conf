@@ -347,7 +347,7 @@ export const sponsors = {
     },
     {
       logo: "https://i.imgur.com/S0V0dEX.jpg",
-      name: "CheapAir",
+      name: "CheapAir.com",
       site: "https://www.cheapair.com",
       type: "Silver"
     }
@@ -358,6 +358,14 @@ export const sponsors = {
       name: "Crypto Greetings",
       site: "https://www.cryptogreetings.com",
       type: "Bronze"
+    }
+  ]
+  digital: [
+    {
+      logo: "https://i.imgur.com/gPdjtQ6.jpg",
+      name: "Hodl Fuel",
+      site: "https://twitter.com/HODLFUEL",
+      type: "Digital"
     }
   ]
 }
