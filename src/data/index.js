@@ -81,7 +81,7 @@ export const speakers = [
   },
   {
     name: "Alexey Kassabov",
-    info: "EA tax consultant, CPA",
+    info: "EA tax consultant",
     avatar: "https://i.imgur.com/Bhlmpng.jpg",
     social: {
       twitter: ""
@@ -247,13 +247,13 @@ export const day2 = [
     avatar: "https://i.imgur.com/Bhlmpng.jpg",
   },
   {
-    name: "The Litecoin School of Crypto: ECurrencyHodler",
+    name: "The Litecoin School of Crypto: EcurrencyHodler",
     location: "Oyster Point",
     info: "11:45 - 12:15",
     avatar: "https://i.imgur.com/2CakPdG.png",
   },
   {
-    name: "Crypto Adoption in Austrailia: Caleb Yeoh",
+    name: "Crypto Adoption in Australia: Caleb Yeoh",
     location: "Oyster Point",
     info: "12:30 - 13:15",
     avatar: "https://i.imgur.com/J76oyGB.png",
@@ -265,7 +265,7 @@ export const day2 = [
     avatar: "https://pbs.twimg.com/profile_images/571239058287886336/87aavWwP_400x400.jpeg",
   },
   {
-    name: "Payment Adoption in Tradiotnal Environments: Jon Moore",
+    name: "Payment Adoption in Traditional Environments: Jon Moore",
     location: "Oyster Point",
     info: "14:15 - 14:45",
     avatar: "https://i.imgur.com/nNSiLer.jpg",
