@@ -303,7 +303,7 @@ export const tickets = [
     title: "Summit Day 2",
     src: "https://i.imgur.com/Ydue1uN.jpg",
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
-    content: ["Access to summit on 15th Sep Only", "Access to the Expo", "ID & Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to Summit on 15th Sep Only", "Access to the Expo and Day 2 Speakers", "ID & Lanyard on arrival", "*Non Refundable"],
     price: 49,
     link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/"
   }
