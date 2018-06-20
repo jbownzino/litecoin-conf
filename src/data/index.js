@@ -340,14 +340,14 @@ export const sponsors = {
   ],
   silver: [
     {
-      logo: "https://i.imgur.com/Tofa8PE.jpg",
+      logo: "https://i.imgur.com/ZlmVU9X.jpg",
       name: "FutureBit",
       site: "https://www.futurebit.io",
       type: "Silver"
     },
     {
       logo: "https://i.imgur.com/S0V0dEX.jpg",
-      name: "CheapAir",
+      name: "CheapAir.com",
       site: "https://www.cheapair.com",
       type: "Silver"
     }
