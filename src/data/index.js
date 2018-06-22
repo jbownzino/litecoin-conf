@@ -295,7 +295,7 @@ export const tickets = [
     title: "Summit Day 1 + 2",
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
-    content: ["Access to both days of the summit", "Breakfast, Lunch, Drinks & Snack Inc. (Day 1 only)", "Access to the Icebreaker", "ID & Lanyard on arrival", "**Use code LTCSF18EB for $350 Early Bird Tickets!**", "Early Bird Tickets end at the end of July", "Tickets jump to $450 in August", "Tickets jump to $490 in September","*Non Refundable"],
+    content: ["Access to both days of the summit", "Breakfast, Lunch, Drinks & Snack Inc. (Day 1 only)", "Access to the Icebreaker", "ID & Lanyard on arrival", "**Use code LTCSF18EB for $350 Early Bird Tickets!**", "Early Bird Tickets end at the end of July", "Tickets jump to $425 in August", "Tickets jump to $490 in September","*Non Refundable"],
     price: 490
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
