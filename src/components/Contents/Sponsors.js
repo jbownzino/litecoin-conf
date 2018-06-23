@@ -63,6 +63,9 @@ const Sponsors = ({ data }) => (
     <ContentWrapper>
       {data && data.bronze.map((each, i) => <DataCard key={i} {...each} />)}
     </ContentWrapper>
+    <ContentWrapper>
+      {data && data.digital.map((each, i) => <DataCard key={i} {...each} />)}
+    </ContentWrapper>
   </Wrapper>
 )
 

@@ -359,7 +359,7 @@ export const sponsors = {
       site: "https://www.cryptogreetings.com",
       type: "Bronze"
     }
-  ]
+  ],
   digital: [
     {
       logo: "https://i.imgur.com/gPdjtQ6.jpg",
