@@ -360,4 +360,12 @@ export const sponsors = {
       type: "Bronze"
     }
   ]
+  digital: [
+    {
+      logo: "https://i.imgur.com/gPdjtQ6.jpg",
+      name: "Hodl Fuel",
+      site: "https://twitter.com/HODLFUEL",
+      type: "Digital"
+    }
+  ]
 }
