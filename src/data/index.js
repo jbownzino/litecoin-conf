@@ -296,7 +296,7 @@ export const tickets = [
     src: "https://i.imgur.com/4XTtKta.jpg",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
     content: ["Access to both days of the summit", "Breakfast, Lunch, Drinks & Snack Inc. (Day 1 only)", "Access to the Icebreaker", "ID & Lanyard on arrival", "*Non Refundable"],
-    price: 490,
+    price: 350,
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
   },
   {
