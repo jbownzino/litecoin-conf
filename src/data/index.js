@@ -338,6 +338,14 @@ export const sponsors = {
       type: "Gold"
     }
   ],
+   gold: [
+    {
+      logo: "https://i.imgur.com/xl8fKO5.jpg",
+      name: "Genesis Capital",
+      site: "https://genesiscap.co/",
+      type: "Gold"
+    },
+    {
   silver: [
     {
       logo: "https://i.imgur.com/ZlmVU9X.jpg",
