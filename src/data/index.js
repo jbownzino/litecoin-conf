@@ -56,6 +56,14 @@ export const speakers = [
     }
   },
   {
+    name: "Adam Draper",
+    info: "Founder and Managing Director of Boost VC",
+    avatar: "https://i.imgur.com/dlYk0Mh.jpg",
+    social: {
+      twitter: "https://twitter.com/AdamDraper"
+    }
+  },
+  {
     name: "Eric Brown",
     info: "Aliant Payments CEO",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
