@@ -203,27 +203,33 @@ export const day1 = [
     avatar: "https://i.imgur.com/o7AvG0x.jpg",
   },
   {
+    name: "Adam Draper",
+    location: "Main Room",
+    info: "16:00 - 16:30",
+    avatar: "https://i.imgur.com/dlYk0Mh.jpg",
+  },
+  {
     name: "Break - Roundtable Set up",
     location: "Main Room",
-    info: "16:00 - 16:15",
+    info: "16:30 - 16:45",
     avatar: "https://i.imgur.com/2CmlgfU.png",
   },
   {
     name: "Litecoin Foundation Roundtable (Charlie, Xinxi, Franklyn)",
     location: "Main Room",
-    info: "16:15 - 17:15",
+    info: "16:45 - 17:45",
     avatar: "https://i.imgur.com/PcLLdAJ.jpg",
   },
   {
     name: "Break - Icebreaker Set up",
     location: "Main Room",
-    info: "17:15 - 18:15",
+    info: "17:45 - 19:30",
     avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
     name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
     location: "Lobby & Prefunctory Lobby Areas",
-    info: "18:15 - End",
+    info: "19:30 - End",
     avatar: "https://i.imgur.com/D5rlLxz.png",
   },
 
