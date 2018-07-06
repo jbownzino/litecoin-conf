@@ -387,6 +387,14 @@ export const sponsors = {
       site: "https://cryptowhaleclothing.com/",
       type: "Bronze"
     }
+ ],
+  bronze: [
+    {
+      logo: "https://i.imgur.com/Kr6k5PV.jpg",
+      name: "Liteco",
+      site: "https://www.liteco.shop/",
+      type: "Bronze"
+    }
   ],
   digital: [
     {
