@@ -379,6 +379,14 @@ export const sponsors = {
       site: "https://www.cryptogreetings.com",
       type: "Bronze"
     }
+ ],
+  bronze: [
+    {
+      logo: "https://i.imgur.com/pUD0kVM.jpg",
+      name: "Crypto Whale Clothing",
+      site: "https://cryptowhaleclothing.com/",
+      type: "Bronze"
+    }
   ],
   digital: [
     {
