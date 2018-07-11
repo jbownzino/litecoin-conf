@@ -68,7 +68,7 @@ export const speakers = [
     info: "Aliant Payments CEO",
     avatar: "https://i.imgur.com/lY7AWsh.jpg",
     social: {
-      twitter: "https://twitter.com/ericbrown_stl"
+      twitter: "https://twitter.com/bigetheword"
     }
   },
   {
