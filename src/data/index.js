@@ -378,19 +378,19 @@ export const sponsors = {
       name: "Crypto Greetings",
       site: "https://www.cryptogreetings.com",
       type: "Bronze"
-    }
+    },
     {
       logo: "https://i.imgur.com/pUD0kVM.jpeg",
       name: "Crypto Whale Clothing",
       site: "https://cryptowhaleclothing.com",
       type: "Bronze"
-    }
+    },
     {
       logo: "https://i.imgur.com/Kr6k5PV.jpg",
       name: "Liteco",
       site: "https://www.liteco.shop",
       type: "Bronze"
-    }
+    },
   ],
   digital: [
     {
