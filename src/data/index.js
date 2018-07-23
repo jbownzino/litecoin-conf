@@ -249,10 +249,10 @@ export const day2 = [
     avatar: "https://i.imgur.com/RsUC1qg.png",
   },
   {
-    name: "Eric Brown",
+    name: "CoinGate",
     location: "Oyster Point",
     info: "10:00 - 10:30",
-    avatar: "https://i.imgur.com/lY7AWsh.jpg",
+    avatar: "https://i.imgur.com/az84BHR.jpg",
   },
   {
     name: "Taxation & Cryptocurrency: Alexey Kassabov",
@@ -293,7 +293,7 @@ export const day2 = [
   {
     name: "Zulu Republic, Building a User Centric Litecoin: Michael Rodriguez",
     location: "Oyster Point",
-    info: "15:30 - 16:00",
+    info: "15:45 - 16:15",
     avatar: "https://i.imgur.com/U6YQi21.png",
   },
   {
