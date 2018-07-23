@@ -239,7 +239,7 @@ export const day2 = [
   {
     name: "Set Up",
     location: "All Rooms",
-    info: "06:00 - 09:00",
+    info: "07:00 - 09:00",
     avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
