@@ -391,6 +391,12 @@ export const sponsors = {
       site: "https://www.liteco.shop",
       type: "Bronze"
     },
+    {
+      logo: "https://i.imgur.com/6Al4UKP.jpg",
+      name: "Bitcoin Superstore",
+      site: "https://bitcoinsuperstore.us/",
+      type: "Bronze"
+    },
   ],
   digital: [
     {
