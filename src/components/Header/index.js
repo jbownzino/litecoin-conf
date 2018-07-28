@@ -7,7 +7,7 @@ import { Button, fromTheme, media } from 'theme/globalStyle'
 
 const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 20px;
   ${media.medium`
