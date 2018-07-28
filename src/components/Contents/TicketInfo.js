@@ -50,13 +50,23 @@ const InfoWrapper = styled.div`
 `
 
 const Img = styled.img`
-  height: 310px;
+  height: 320px;
 `
 
 const EmptyImg = styled.div`
   background: ${fromTheme('lightGrey')};
   width: 100%;
   height: 310px;
+`
+const Ul = styled.ul`
+  padding-left: 16px;
+  text-align: left;
+  margin: 0;
+`
+
+const Li = styled.li`
+  margin: 0;
+  font-size: 12px;
 `
 
 const P = styled.p`
@@ -87,7 +97,10 @@ const TicketInfo = () => (
             {src.length === 0 ? <EmptyImg /> : <Img src={src} />}
             <InfoWrapper>
               <h5>{title}</h5>
-              {content.map((each, j) => <P key={j}>{each}</P>)}
+              <Ul>
+                {content.slice(0, -1).map((each, j) => <Li key={j}>{each}</Li>)}
+              </Ul>
+              <P>{content.slice(-1).pop()}</P>
             </InfoWrapper>
             <a target="_blank" href={link}>
               <BookButton>Book Ticket | ${price}</BookButton>

@@ -306,20 +306,25 @@ export const day2 = [
 
 export const tickets = [
   {
-    title: "Summit Day 1 + 2",
-    src: "https://i.imgur.com/4XTtKta.jpg",
+    title: "Summit VIP",
+    src: "https://i.imgur.com/5intJWD.png",
     link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
-    content: ["Access to both days of the summit", "Breakfast, Lunch, Drinks & Snack Inc. (Day 1 only)", "Access to the Icebreaker", "ID & Lanyard on arrival", "*Non Refundable"],
+    content: ["Access to both days of the summit", "Breakfast, Lunch & Drinks Inc", "Free Lanyardon on arrival", "Free LTC Phoenix Den Hat", "Access to the Icebreaker event", "* Non Refundable"],
     price: 350,
-    link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/"
+  },
+  {
+    title: "Summit Day 1 + 2",
+    src: "https://i.imgur.com/LDyOU4X.png",
+    link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
+    content: ["Access to both days of the summit", "Free Lanyardon on arrival", "* Non Refundable"],
+    price: 199,
   },
   {
     title: "Summit Day 2",
-    src: "https://i.imgur.com/Ydue1uN.jpg",
-    link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/09-15_2018-830am/",
-    content: ["Access to Summit on 15th Sep Only", "Access to the Expo and Day 2 Speakers", "ID & Lanyard on arrival", "*Non Refundable"],
+    src: "https://i.imgur.com/XiReHTn.png",
+    link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/",
+    content: ["Access to Summit on 15th Sep Only", "Free Lanyardon on arrival", "* Non Refundable"],
     price: 49,
-    link: "https://litecoin-foundation.org/event/litecoin-summit-2018-september-15-day-2/single/"
   }
 ]
 
