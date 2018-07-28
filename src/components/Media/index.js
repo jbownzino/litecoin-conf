@@ -1,10 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
 
 import videoBackground from 'images/video-background.png'
-import { Button, fromTheme, media } from 'theme/globalStyle'
+import { fromTheme, media } from 'theme/globalStyle'
 import Counter from './Counter'
 
 import ravLogo from 'images/rav-logo.png'
@@ -36,7 +34,6 @@ const H1 = styled.h1`
 const SponsorWrapper = styled.div`
   background: ${fromTheme('lightGrey')};
   padding: 1.2rem 0;
-
 `
 
 const RAV = styled.img`
