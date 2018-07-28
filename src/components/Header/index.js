@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin-top: 30px;
   ${media.medium`
     margin: 8px;
   `}
