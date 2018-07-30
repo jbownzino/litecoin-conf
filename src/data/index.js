@@ -315,7 +315,7 @@ export const tickets = [
   {
     title: "Summit Day 1 + 2",
     src: "https://i.imgur.com/LDyOU4X.png",
-    link: "https://litecoin-foundation.org/event/global-litecoin-summit-2018/premium/",
+    link: "https://litecoin-foundation.org/event/global-litecoin-summit-day-1-2-regular/09-14_2018-800am/",
     content: ["Access to both days of the summit", "Free Lanyardon on arrival", "* Non Refundable"],
     price: 199,
   },
