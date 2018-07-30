@@ -402,6 +402,12 @@ export const sponsors = {
       site: "https://bitcoinsuperstore.us/",
       type: "Bronze"
     },
+    {
+      logo: "https://i.imgur.com/Pm909SW.jpg",
+      name: "Hodlit",
+      site: "https://hodlit.com/",
+      type: "Bronze"
+    },
   ],
   digital: [
     {
