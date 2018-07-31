@@ -6,7 +6,7 @@ import { fromTheme, media } from 'theme/globalStyle'
 import Counter from './Counter'
 
 import ravLogo from 'images/rav-logo.png'
-import geminiLogo from 'images/gemini-logo.svg'
+// import geminiLogo from 'images/gemini-logo.svg'
 
 
 const Wrapper = styled.div`
@@ -41,10 +41,10 @@ const RAV = styled.img`
   margin: 0 40px;
 `
 
-const GEMINI = styled.img`
-  width: 85px;
-  margin: 0 40px;
-`
+// const GEMINI = styled.img`
+//   width: 85px;
+//   margin: 0 40px;
+// `
 
 const Media = () => (
   <React.Fragment>
@@ -56,7 +56,7 @@ const Media = () => (
     </Wrapper>
     <SponsorWrapper>
       <RAV src={ravLogo}/>
-      <GEMINI src={geminiLogo}/>
+      {/* <GEMINI src={geminiLogo}/> */}
     </SponsorWrapper>
   </React.Fragment>
 )
