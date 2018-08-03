@@ -227,7 +227,7 @@ export const day1 = [
     avatar: "https://i.imgur.com/0m3TzBA.png",
   },
   {
-    name: "Icebreaker/Networking with Litecoin Foundation, Charlie and others",
+    name: "Professional Mixer (VIP only!): Networking with members of the Litecoin Foundation, Charlie and others",
     location: "Lobby & Prefunctory Lobby Areas",
     info: "19:30 - End",
     avatar: "https://i.imgur.com/D5rlLxz.png",
